@@ -7,31 +7,40 @@
 
 @implementation ChatViewController
 
+-(void)dealloc {
+  [client release];
+  [super dealloc];
+}
+
 - (void)log:(NSString *)message {
 	NSLog(@"%@", message);
 }
 
 -(void)write:(NSString*)text {
-    NSMutableString* newText = [NSMutableString stringWithString:textView.text];
-    [newText appendString:text];
-    [newText appendString:@"\n"];
-    textView.text = newText;
-    [textView scrollRangeToVisible:NSMakeRange([textView.text length], 0)];
+  // write raw text to the textView
+  NSMutableString* newText = [NSMutableString stringWithString:textView.text];
+  [newText appendString:text];
+  [newText appendString:@"\n"];
+  textView.text = newText;
+  [textView scrollRangeToVisible:NSMakeRange([textView.text length], 0)];
 }
 
 - (void)onChatMessage:(NSDictionary *)msgObj {
+  // print a message e.g. "user: msg"
 	NSString *formattedMsg;
 	formattedMsg = [NSString stringWithFormat: @"%@: %@", [msgObj objectForKey:@"username"], [msgObj objectForKey:@"message"]];
 	[self write:formattedMsg];	
 }
 
 - (void)onAnnouncement:(NSDictionary *)msgObj {
+  // print an announcement e.g. "** msg **"
 	NSString *formattedMsg;
 	formattedMsg = [NSString stringWithFormat: @"** %@ **", [msgObj objectForKey:@"announcement"]];
 	[self write:formattedMsg];
 }
 
 - (void)onMessage:(NSDictionary *) msgObj {
+	// strategy for different types of objects
 	BOOL isAnnouncement = ([msgObj objectForKey:@"announcement"] != nil);
 	if (isAnnouncement) {
 		[self onAnnouncement:msgObj];
@@ -45,10 +54,13 @@
 }
 
 - (void)connect {
+  // TODO: make sure the reconnect button is working correctly
 	reconnectButton.hidden = YES;
+  // hardcoded for now
 	NSString* host = @"173.203.56.222";
 	NSInteger* port = 9202;
 	
+  // setup and connect to the server with websockets
 	client = [[SocketIoClient alloc] initWithHost:host port:port];
 	client.delegate = self;
 	
@@ -57,17 +69,20 @@
 
 
  - (BOOL)textFieldShouldReturn:(UITextField *)aTextField {
+	// only send if we're connected
 	if ([client isConnected]) {
+		// encode the message in JSON
 		NSDictionary *dictionary = [NSDictionary dictionaryWithObject:aTextField.text forKey:@"msg"];
 		NSError *error = NULL;
 		NSData *jsonData = [[CJSONSerializer serializer] serializeObject:dictionary error:error];
-		NSString *jsonDataStr = [[NSString alloc] initWithData:jsonData encoding:NSASCIIStringEncoding];
+		NSString *jsonDataStr = [[[NSString alloc] initWithData:jsonData encoding:NSASCIIStringEncoding]autorelease];
 		
 		[client send:jsonDataStr isJSON:NO];
 		[self write:textField.text];
 	} else {
 		[self write:@"Not connected."];
 	}
+	// clear out the input box
 	[textField setText:@""];
 	return NO;	
  }
@@ -91,7 +106,7 @@
 - (void)socketIoClient:(SocketIoClient *)client didReceiveMessage:(NSString *)msg isJSON:(BOOL)isJSON {
     NSLog(@"Received: %@", msg);
 	
-	// the payloads aren't being recognized as JSON right now, but they are.
+	// TODO: either assume it's always JSON or get the server to send the "correct" frame.
 	if (TRUE) {
 		// decode JSON
 		NSError *error = nil;
@@ -121,11 +136,9 @@
 	[self connect];
 	
 	[textView becomeFirstResponder];
-    [textField becomeFirstResponder];
+  [textField becomeFirstResponder];
 }
 
--(void)dealloc {
-    [super dealloc];
-}
+
 
 @end
