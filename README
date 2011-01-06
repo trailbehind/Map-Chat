@@ -1,0 +1,4 @@
+This is the most basic socket.io realtime chat application. It is hard coded to use the justinbeeper.com node server.
+
+It uses socketio-cocoa:
+https://github.com/fpotter/socketio-cocoa
