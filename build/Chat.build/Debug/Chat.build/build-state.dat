@@ -1,0 +1,51 @@
+TChat
+v7
+r1
+
+N/Users/tomlongson/code/zimt/samples/Chat/ChatViewController.xib
+c000000004D2210B0000000000000649E
+t1294078128
+s25758
+
+N/Users/tomlongson/code/zimt/samples/Chat/MainWindow.xib
+c000000004D2210B0000000000000262B
+t1294078128
+s9771
+
+N/Users/tomlongson/code/zimt/samples/Chat/build/Debug/Chat.app
+t2
+s0
+
+N/Users/tomlongson/code/zimt/samples/Chat/build/Debug/Chat.app/Contents/Info.plist
+t2
+s0
+
+N/Users/tomlongson/code/zimt/samples/Chat/build/Debug/Chat.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/tomlongson/code/zimt/samples/Chat/build/Debug/Chat.app/Contents/Resources/ChatViewController.nib
+t2
+s0
+
+N/Users/tomlongson/code/zimt/samples/Chat/build/Debug/Chat.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+NChat-Info.plist
+c000000004D2210B0000000000000038E
+t1294078128
+s910
+
+CCompileXIB /Users/tomlongson/code/zimt/samples/Chat/ChatViewController.xib
+r0
+
+CCompileXIB /Users/tomlongson/code/zimt/samples/Chat/MainWindow.xib
+r0
+
+CProcessInfoPlistFile /Users/tomlongson/code/zimt/samples/Chat/build/Debug/Chat.app/Contents/Info.plist Chat-Info.plist
+r0
+
+CTouch /Users/tomlongson/code/zimt/samples/Chat/build/Debug/Chat.app
+r0
+
