@@ -26,9 +26,10 @@
 		23232BFB12D2CA94003FD72C /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 23232BEE12D2CA94003FD72C /* CJSONScanner.m */; };
 		23232BFC12D2CA94003FD72C /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 23232BF012D2CA94003FD72C /* CJSONSerializer.m */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		2899E5220DE3E06400AC0155 /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* ChatViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ChatViewController.m */; };
+		A0078F2112E4DCB9004D0B1E /* RoomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0078F2012E4DCB9004D0B1E /* RoomTableViewController.m */; };
+		A0078F3C12E4F4E6004D0B1E /* ChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0078F3B12E4F4E6004D0B1E /* ChatController.m */; };
 		C76180C5112AA8F6008E0A1C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76180C4112AA8F6008E0A1C /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,13 +69,16 @@
 		23232BF012D2CA94003FD72C /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
 		23232BF112D2CA94003FD72C /* JSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRepresentation.h; sourceTree = "<group>"; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2899E5210DE3E06400AC0155 /* ChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		28D7ACF60DDB3853001CB0EB /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Chat_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chat_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Chat-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Chat-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A0078F1F12E4DCB9004D0B1E /* RoomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomTableViewController.h; sourceTree = "<group>"; };
+		A0078F2012E4DCB9004D0B1E /* RoomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomTableViewController.m; sourceTree = "<group>"; };
+		A0078F3A12E4F4E6004D0B1E /* ChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatController.h; sourceTree = "<group>"; };
+		A0078F3B12E4F4E6004D0B1E /* ChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatController.m; sourceTree = "<group>"; };
 		C76180C4112AA8F6008E0A1C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -100,6 +104,10 @@
 				1D3623250D0F684500981E51 /* ChatAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* ChatViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* ChatViewController.m */,
+				A0078F1F12E4DCB9004D0B1E /* RoomTableViewController.h */,
+				A0078F2012E4DCB9004D0B1E /* RoomTableViewController.m */,
+				A0078F3A12E4F4E6004D0B1E /* ChatController.h */,
+				A0078F3B12E4F4E6004D0B1E /* ChatController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -197,7 +205,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources-iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				2899E5210DE3E06400AC0155 /* ChatViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Chat-Info.plist */,
 			);
@@ -265,7 +272,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				2899E5220DE3E06400AC0155 /* ChatViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +299,8 @@
 				2308201912D443D700920F5A /* AsyncSocket.m in Sources */,
 				2308201C12D4444800920F5A /* SocketIoClient.m in Sources */,
 				2308201F12D4447700920F5A /* WebSocket.m in Sources */,
+				A0078F2112E4DCB9004D0B1E /* RoomTableViewController.m in Sources */,
+				A0078F3C12E4F4E6004D0B1E /* ChatController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

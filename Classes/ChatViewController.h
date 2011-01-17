@@ -3,21 +3,14 @@
 //  Chat
 //
 
-#import <UIKit/UIKit.h>
-#import "SocketIoClient.h"
-#import "CJSONDeserializer.h"
-#import "CJSONSerializer.h"
+#import "ChatController.h"
 
+@interface ChatViewController : UIViewController <UITextFieldDelegate, ChatControllerDelegate> {	
 
-@interface ChatViewController : UIViewController<SocketIoClientDelegate, UITextFieldDelegate> {	
-	SocketIoClient *client;
+	UITextField* textField;
+	UIView *textFieldBackground;
+	UITextView* textView;
 	
-    IBOutlet UITextField* textField;
-    IBOutlet UITextView* textView;
-    IBOutlet UIActivityIndicatorView* activityIndicator;
-    
-    IBOutlet UIButton* reconnectButton;
 }
 
--(IBAction)reconnect:(id)sender;
 @end

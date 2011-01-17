@@ -1,610 +1,0 @@
-TJustinBeeper
-v7
-r0
-t315900512.477086
-cCheck dependencies
-cProcessInfoPlistFile /Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/Chat.app/Info.plist Chat-Info.plist
-cCompileXIB /Users/tomlongson/code/mapchat/MainWindow.xib
-cCompileXIB /Users/tomlongson/code/mapchat/ChatViewController.xib
-cProcessPCH /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch.gch Chat_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/main.o /Users/tomlongson/code/mapchat/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/ChatAppDelegate.o /Users/tomlongson/code/mapchat/Classes/ChatAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/ChatViewController.o /Users/tomlongson/code/mapchat/Classes/ChatViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CDataScanner.o /Users/tomlongson/code/mapchat/Source/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CFilteringJSONSerializer.o /Users/tomlongson/code/mapchat/Source/Experimental/CFilteringJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o /Users/tomlongson/code/mapchat/Source/Experimental/CJSONDeserializer_BlocksExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONSerializedData.o /Users/tomlongson/code/mapchat/Source/Experimental/CJSONSerializedData.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CDataScanner_Extensions.o /Users/tomlongson/code/mapchat/Source/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/NSCharacterSet_Extensions.o /Users/tomlongson/code/mapchat/Source/Extensions/NSCharacterSet_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Users/tomlongson/code/mapchat/Source/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/NSScanner_Extensions.o /Users/tomlongson/code/mapchat/Source/Extensions/NSScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONDeserializer.o /Users/tomlongson/code/mapchat/Source/JSON/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONScanner.o /Users/tomlongson/code/mapchat/Source/JSON/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONSerializer.o /Users/tomlongson/code/mapchat/Source/JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c000000004CC1224400000000001C3D40
-t1287725636
-s1850688
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Users/tomlongson/code/mapchat/ChatViewController.xib
-c000000004D240AB3000000000000649E
-t1294207667
-s25758
-
-N/Users/tomlongson/code/mapchat/Chat_Prefix.pch
-c000000004D240AB300000000000000B1
-t1294207667
-s177
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/tomlongson/code/mapchat/Classes/ChatAppDelegate.h
-c000000004D240AB300000000000001E3
-t1294207667
-s483
-i<UIKit/UIKit.h>
-
-N/Users/tomlongson/code/mapchat/Classes/ChatAppDelegate.m
-c000000004D240AB300000000000002AA
-t1294207667
-s682
-i"ChatAppDelegate.h"
-i"ChatViewController.h"
-
-N/Users/tomlongson/code/mapchat/Classes/ChatViewController.h
-c000000004D240AB30000000000000314
-t1294207667
-s788
-i<UIKit/UIKit.h>
-i"Zimt/Zimt.h"
-i"CJSONDeserializer.h"
-
-N/Users/tomlongson/code/mapchat/Classes/ChatViewController.m
-c000000004D240AB30000000000001C53
-t1294207667
-s7251
-i"ChatViewController.h"
-
-N/Users/tomlongson/code/mapchat/MainWindow.xib
-c000000004D240AB3000000000000262B
-t1294207667
-s9771
-
-N/Users/tomlongson/code/mapchat/Source/CDataScanner.h
-c000000004D240AB30000000000000A15
-t1294207667
-s2581
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/mapchat/Source/CDataScanner.m
-c000000004D240AB30000000000001B12
-t1294207667
-s6930
-i"CDataScanner.h"
-i"CDataScanner_Extensions.h"
-
-N/Users/tomlongson/code/mapchat/Source/Experimental/CFilteringJSONSerializer.h
-c000000004D240AB30000000000000217
-t1294207667
-s535
-i"CJSONSerializer.h"
-
-N/Users/tomlongson/code/mapchat/Source/Experimental/CFilteringJSONSerializer.m
-c000000004D240AB300000000000005A7
-t1294207667
-s1447
-i"CFilteringJSONSerializer.h"
-
-N/Users/tomlongson/code/mapchat/Source/Experimental/CJSONDeserializer_BlocksExtensions.h
-c000000004D240AB300000000000001E4
-t1294207667
-s484
-i"CJSONDeserializer.h"
-
-N/Users/tomlongson/code/mapchat/Source/Experimental/CJSONDeserializer_BlocksExtensions.m
-c000000004D240AB300000000000006FB
-t1294207667
-s1787
-i"CJSONDeserializer_BlocksExtensions.h"
-i"CJSONScanner.h"
-
-N/Users/tomlongson/code/mapchat/Source/Experimental/CJSONSerializedData.h
-c000000004D240AB30000000000000166
-t1294207667
-s358
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/mapchat/Source/Experimental/CJSONSerializedData.m
-c000000004D240AB300000000000001FA
-t1294207667
-s506
-i"CJSONSerializedData.h"
-
-N/Users/tomlongson/code/mapchat/Source/Extensions/CDataScanner_Extensions.h
-c000000004D240AB300000000000005FB
-t1294207667
-s1531
-i"CDataScanner.h"
-
-N/Users/tomlongson/code/mapchat/Source/Extensions/CDataScanner_Extensions.m
-c000000004D240AB30000000000001071
-t1294207667
-s4209
-i"CDataScanner_Extensions.h"
-i"NSCharacterSet_Extensions.h"
-
-N/Users/tomlongson/code/mapchat/Source/Extensions/NSCharacterSet_Extensions.h
-c000000004D240AB3000000000000057A
-t1294207667
-s1402
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/mapchat/Source/Extensions/NSCharacterSet_Extensions.m
-c000000004D240AB30000000000000816
-t1294207667
-s2070
-i"NSCharacterSet_Extensions.h"
-
-N/Users/tomlongson/code/mapchat/Source/Extensions/NSDictionary_JSONExtensions.h
-c000000004D240AB30000000000000598
-t1294207667
-s1432
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/mapchat/Source/Extensions/NSDictionary_JSONExtensions.m
-c000000004D240AB30000000000000613
-t1294207667
-s1555
-i"NSDictionary_JSONExtensions.h"
-i"CJSONDeserializer.h"
-
-N/Users/tomlongson/code/mapchat/Source/Extensions/NSScanner_Extensions.h
-c000000004D240AB30000000000000656
-t1294207667
-s1622
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/mapchat/Source/Extensions/NSScanner_Extensions.m
-c000000004D240AB30000000000000D6B
-t1294207667
-s3435
-i"NSScanner_Extensions.h"
-i"NSCharacterSet_Extensions.h"
-
-N/Users/tomlongson/code/mapchat/Source/JSON/CJSONDeserializer.h
-c000000004D240AB3000000000000087E
-t1294207667
-s2174
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/mapchat/Source/JSON/CJSONDeserializer.m
-c000000004D240AB30000000000000E45
-t1294207667
-s3653
-i"CJSONDeserializer.h"
-i"CJSONScanner.h"
-i"CDataScanner.h"
-
-N/Users/tomlongson/code/mapchat/Source/JSON/CJSONScanner.h
-c000000004D240AB30000000000000914
-t1294207667
-s2324
-i"CDataScanner.h"
-
-N/Users/tomlongson/code/mapchat/Source/JSON/CJSONScanner.m
-c000000004D240AB30000000000004A00
-t1294207667
-s18944
-i"CJSONScanner.h"
-i"NSCharacterSet_Extensions.h"
-i"CDataScanner_Extensions.h"
-
-N/Users/tomlongson/code/mapchat/Source/JSON/CJSONSerializer.h
-c000000004D240AB300000000000007B0
-t1294207667
-s1968
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/mapchat/Source/JSON/CJSONSerializer.m
-c000000004D240AB30000000000001E95
-t1294207667
-s7829
-i"CJSONSerializer.h"
-i"JSONRepresentation.h"
-
-N/Users/tomlongson/code/mapchat/Source/JSON/JSONRepresentation.h
-c000000004D240AB30000000000000148
-t1294207667
-s328
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CDataScanner.o
-t1294207712
-s29664
-
-N/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CDataScanner_Extensions.o
-t1294207712
-s15220
-
-N/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CFilteringJSONSerializer.o
-t1294207712
-s13044
-
-N/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONDeserializer.o
-t1294207712
-s17132
-
-N/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o
-t1294207712
-s19332
-
-N/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONScanner.o
-t1294207712
-s41392
-
-N/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONSerializedData.o
-t1294207712
-s8220
-
-N/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONSerializer.o
-t1294207712
-s21696
-
-N/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/Chat.LinkFileList
-c000000004D240ADF0000000000000729
-t1294207711
-s1833
-
-N/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/ChatAppDelegate.o
-t2
-s0
-
-N/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/ChatViewController.o
-t2
-s0
-
-N/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/NSCharacterSet_Extensions.o
-t1294207712
-s7712
-
-N/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
-t1294207712
-s7224
-
-N/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/NSScanner_Extensions.o
-t1294207712
-s13544
-
-N/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/main.o
-t1294207712
-s6288
-
-N/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/Chat.app
-t1294207667
-s238
-
-N/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/Chat.app.dSYM
-t1294207667
-s102
-
-N/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/Chat.app/Chat
-t1294207667
-s206024
-
-N/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/Chat.app/ChatViewController.nib
-t1294207667
-s2382
-
-N/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/Chat.app/Info.plist
-t1294207667
-s579
-
-N/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/Chat.app/MainWindow.nib
-t1294207667
-s1117
-
-N/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/Chat.app/PkgInfo
-t1294207667
-s8
-
-N/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/libZimt.a
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/tomlongson/code/mapchat/main.m
-c000000004D240AB4000000000000017C
-t1294207668
-s380
-i<UIKit/UIKit.h>
-
-N/var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch.gch
-t1294207711
-s15441104
-
-NChat-Info.plist
-c000000004D240AB3000000000000038E
-t1294207667
-s910
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies315900511#315900511#0(0"1(22@54"Missing dependency target "Zimt (from Zimt.xcodeproj)"315900511#18446744073709551615#0#0(1@0"0(0#1#0"8613478144#0"0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CDataScanner.o /Users/tomlongson/code/mapchat/Source/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315900512.131910
-e315900512.280780
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CDataScanner.o
-x/Users/tomlongson/code/mapchat/Source/CDataScanner.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/tomlongson/code/mapchat/Source/CDataScanner.m315900512#315900512#0(0"0(0#0#52"/Users/tomlongson/code/mapchat/Source/CDataScanner.m8618950656#1872"    cd /Users/tomlongson/code/mapchat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-generated-files.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-project-headers.hmap -F/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator -iquote../../src -I/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources/i386 -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch -c /Users/tomlongson/code/mapchat/Source/CDataScanner.m -o /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CDataScanner.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CDataScanner_Extensions.o /Users/tomlongson/code/mapchat/Source/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315900512.237531
-e315900512.336942
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CDataScanner_Extensions.o
-x/Users/tomlongson/code/mapchat/Source/Extensions/CDataScanner_Extensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/tomlongson/code/mapchat/Source/Extensions/CDataScanner_Extensions.m315900512#315900512#0(0"0(0#0#74"/Users/tomlongson/code/mapchat/Source/Extensions/CDataScanner_Extensions.m8615405440#1905"    cd /Users/tomlongson/code/mapchat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-generated-files.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-project-headers.hmap -F/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator -iquote../../src -I/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources/i386 -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch -c /Users/tomlongson/code/mapchat/Source/Extensions/CDataScanner_Extensions.m -o /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CDataScanner_Extensions.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CFilteringJSONSerializer.o /Users/tomlongson/code/mapchat/Source/Experimental/CFilteringJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315900512.133756
-e315900512.238829
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CFilteringJSONSerializer.o
-x/Users/tomlongson/code/mapchat/Source/Experimental/CFilteringJSONSerializer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/tomlongson/code/mapchat/Source/Experimental/CFilteringJSONSerializer.m315900512#315900512#0(0"0(0#0#77"/Users/tomlongson/code/mapchat/Source/Experimental/CFilteringJSONSerializer.m8618376512#1909"    cd /Users/tomlongson/code/mapchat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-generated-files.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-project-headers.hmap -F/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator -iquote../../src -I/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources/i386 -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch -c /Users/tomlongson/code/mapchat/Source/Experimental/CFilteringJSONSerializer.m -o /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CFilteringJSONSerializer.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONDeserializer.o /Users/tomlongson/code/mapchat/Source/JSON/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315900512.315217
-e315900512.432169
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONDeserializer.o
-x/Users/tomlongson/code/mapchat/Source/JSON/CJSONDeserializer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/tomlongson/code/mapchat/Source/JSON/CJSONDeserializer.m315900512#315900512#0(0"0(0#0#62"/Users/tomlongson/code/mapchat/Source/JSON/CJSONDeserializer.m8614899424#1887"    cd /Users/tomlongson/code/mapchat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-generated-files.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-project-headers.hmap -F/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator -iquote../../src -I/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources/i386 -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch -c /Users/tomlongson/code/mapchat/Source/JSON/CJSONDeserializer.m -o /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONDeserializer.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o /Users/tomlongson/code/mapchat/Source/Experimental/CJSONDeserializer_BlocksExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315900512.135110
-e315900512.237396
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o
-x/Users/tomlongson/code/mapchat/Source/Experimental/CJSONDeserializer_BlocksExtensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/tomlongson/code/mapchat/Source/Experimental/CJSONDeserializer_BlocksExtensions.m315900512#315900512#0(0"0(0#0#87"/Users/tomlongson/code/mapchat/Source/Experimental/CJSONDeserializer_BlocksExtensions.m8620390464#1929"    cd /Users/tomlongson/code/mapchat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-generated-files.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-project-headers.hmap -F/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator -iquote../../src -I/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources/i386 -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch -c /Users/tomlongson/code/mapchat/Source/Experimental/CJSONDeserializer_BlocksExtensions.m -o /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONScanner.o /Users/tomlongson/code/mapchat/Source/JSON/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315900512.337073
-e315900512.477010
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONScanner.o
-x/Users/tomlongson/code/mapchat/Source/JSON/CJSONScanner.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/tomlongson/code/mapchat/Source/JSON/CJSONScanner.m315900512#315900512#0(0"0(0#0#57"/Users/tomlongson/code/mapchat/Source/JSON/CJSONScanner.m8603646432#1877"    cd /Users/tomlongson/code/mapchat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-generated-files.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-project-headers.hmap -F/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator -iquote../../src -I/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources/i386 -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch -c /Users/tomlongson/code/mapchat/Source/JSON/CJSONScanner.m -o /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONScanner.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONSerializedData.o /Users/tomlongson/code/mapchat/Source/Experimental/CJSONSerializedData.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315900512.235925
-e315900512.312159
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONSerializedData.o
-x/Users/tomlongson/code/mapchat/Source/Experimental/CJSONSerializedData.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/tomlongson/code/mapchat/Source/Experimental/CJSONSerializedData.m315900512#315900512#0(0"0(0#0#72"/Users/tomlongson/code/mapchat/Source/Experimental/CJSONSerializedData.m8616624928#1899"    cd /Users/tomlongson/code/mapchat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-generated-files.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-project-headers.hmap -F/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator -iquote../../src -I/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources/i386 -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch -c /Users/tomlongson/code/mapchat/Source/Experimental/CJSONSerializedData.m -o /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONSerializedData.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONSerializer.o /Users/tomlongson/code/mapchat/Source/JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315900512.357066
-e315900512.452530
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONSerializer.o
-x/Users/tomlongson/code/mapchat/Source/JSON/CJSONSerializer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/tomlongson/code/mapchat/Source/JSON/CJSONSerializer.m315900512#315900512#0(0"0(0#0#60"/Users/tomlongson/code/mapchat/Source/JSON/CJSONSerializer.m8601546752#1883"    cd /Users/tomlongson/code/mapchat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-generated-files.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-project-headers.hmap -F/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator -iquote../../src -I/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources/i386 -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch -c /Users/tomlongson/code/mapchat/Source/JSON/CJSONSerializer.m -o /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/CJSONSerializer.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/ChatAppDelegate.o /Users/tomlongson/code/mapchat/Classes/ChatAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315900512.045084
-e315900512.135005
-r0
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/ChatAppDelegate.o
-x/Users/tomlongson/code/mapchat/Classes/ChatAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/tomlongson/code/mapchat/Classes/ChatAppDelegate.m:10:
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.h:10:22: error: Zimt/Zimt.h: No such file or directory
-oIn file included from /Users/tomlongson/code/mapchat/Classes/ChatAppDelegate.m:10:
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.h:13: error: cannot find protocol declaration for 'ZTWebSocketDelegate'
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.h:14: error: expected specifier-qualifier-list before 'ZTWebSocket'
-lSLF07#2@64"Compile /Users/tomlongson/code/mapchat/Classes/ChatAppDelegate.m315900512#315900512#0(535"In file included from /Users/tomlongson/code/mapchat/Classes/ChatAppDelegate.m:10:/Users/tomlongson/code/mapchat/Classes/ChatViewController.h:10:22: error: Zimt/Zimt.h: No such file or directoryIn file included from /Users/tomlongson/code/mapchat/Classes/ChatAppDelegate.m:10:/Users/tomlongson/code/mapchat/Classes/ChatViewController.h:13: error: cannot find protocol declaration for 'ZTWebSocketDelegate'/Users/tomlongson/code/mapchat/Classes/ChatViewController.h:14: error: expected specifier-qualifier-list before 'ZTWebSocket'3(4@38"Zimt/Zimt.h: No such file or directory315900512#83#113#2(7@78"In file included from /Users/tomlongson/code/mapchat/Classes/ChatAppDelegate.m315900512#18446744073709551615#0#0(6@56"/Users/tomlongson/code/mapchat/Classes/ChatAppDelegate.m315900467#10#0#10#0#0"0(13@101"Zimt/Zimt.h: No such file or directory in /Users/tomlongson/code/mapchat/Classes/ChatViewController.h315900512#18446744073709551615#0#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.h315900467#10#0#10#0#0"0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.h315900467#10#0#10#0#28"*: No such file or directory0(4@58"Cannot find protocol declaration for 'ZTWebSocketDelegate'315900512#279#130#2(7@78"In file included from /Users/tomlongson/code/mapchat/Classes/ChatAppDelegate.m315900512#18446744073709551615#0#0(6@56"/Users/tomlongson/code/mapchat/Classes/ChatAppDelegate.m315900467#10#0#10#0#0"0(13@121"Cannot find protocol declaration for 'ZTWebSocketDelegate' in /Users/tomlongson/code/mapchat/Classes/ChatViewController.h315900512#18446744073709551615#0#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.h315900467#13#0#13#0#0"0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.h315900467#13#0#13#0#0"0(4@54"Expected specifier-qualifier-list before 'ZTWebSocket'315900512#409#126#2(7@78"In file included from /Users/tomlongson/code/mapchat/Classes/ChatAppDelegate.m315900512#18446744073709551615#0#0(6@56"/Users/tomlongson/code/mapchat/Classes/ChatAppDelegate.m315900467#10#0#10#0#0"0(13@117"Expected specifier-qualifier-list before 'ZTWebSocket' in /Users/tomlongson/code/mapchat/Classes/ChatViewController.h315900512#18446744073709551615#0#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.h315900467#14#0#14#0#0"0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.h315900467#14#0#14#0#19"expected * before *0(0#0#56"/Users/tomlongson/code/mapchat/Classes/ChatAppDelegate.m8618561184#1879"    cd /Users/tomlongson/code/mapchat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-generated-files.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-project-headers.hmap -F/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator -iquote../../src -I/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources/i386 -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch -c /Users/tomlongson/code/mapchat/Classes/ChatAppDelegate.m -o /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/ChatAppDelegate.o1#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/ChatViewController.o /Users/tomlongson/code/mapchat/Classes/ChatViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315900512.046099
-e315900512.235639
-r0
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/ChatViewController.o
-x/Users/tomlongson/code/mapchat/Classes/ChatViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/tomlongson/code/mapchat/Classes/ChatViewController.m:12:
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.h:10:22: error: Zimt/Zimt.h: No such file or directory
-oIn file included from /Users/tomlongson/code/mapchat/Classes/ChatViewController.m:12:
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.h:13: error: cannot find protocol declaration for 'ZTWebSocketDelegate'
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.h:14: error: expected specifier-qualifier-list before 'ZTWebSocket'
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m: In function '-[ChatViewController viewDidLoad]':
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:49: error: 'webSocket' undeclared (first use in this function)
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:49: error: (Each undeclared identifier is reported only once
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:49: error: for each function it appears in.)
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:49: error: 'ZTWebSocket' undeclared (first use in this function)
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m: In function '-[ChatViewController send:isJSON:]':
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:144: error: 'webSocket' undeclared (first use in this function)
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m: At top level:
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:216: error: expected ')' before 'ZTWebSocket'
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:221: error: expected ')' before 'ZTWebSocket'
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m: In function '-[ChatViewController webSocket:didFailWithError:]':
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:222: error: 'ZTWebSocketErrorConnectionFailed' undeclared (first use in this function)
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:224: error: 'ZTWebSocketErrorHandshakeFailed' undeclared (first use in this function)
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m: At top level:
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:232: error: expected ')' before 'ZTWebSocket'
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:237: error: expected ')' before 'ZTWebSocket'
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:242: error: expected ')' before 'ZTWebSocket'
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m: In function '-[ChatViewController textFieldShouldReturn:]':
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:251: error: 'webSocket' undeclared (first use in this function)
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m: In function '-[ChatViewController reconnect:]':
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:267: error: 'webSocket' undeclared (first use in this function)
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m: In function '-[ChatViewController dealloc]':
-o/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:273: error: 'webSocket' undeclared (first use in this function)
-lSLF07#2@67"Compile /Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900512#315900512#0(3167"In file included from /Users/tomlongson/code/mapchat/Classes/ChatViewController.m:12:/Users/tomlongson/code/mapchat/Classes/ChatViewController.h:10:22: error: Zimt/Zimt.h: No such file or directoryIn file included from /Users/tomlongson/code/mapchat/Classes/ChatViewController.m:12:/Users/tomlongson/code/mapchat/Classes/ChatViewController.h:13: error: cannot find protocol declaration for 'ZTWebSocketDelegate'/Users/tomlongson/code/mapchat/Classes/ChatViewController.h:14: error: expected specifier-qualifier-list before 'ZTWebSocket'/Users/tomlongson/code/mapchat/Classes/ChatViewController.m: In function '-[ChatViewController viewDidLoad]':/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:49: error: 'webSocket' undeclared (first use in this function)/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:49: error: (Each undeclared identifier is reported only once/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:49: error: for each function it appears in.)/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:49: error: 'ZTWebSocket' undeclared (first use in this function)/Users/tomlongson/code/mapchat/Classes/ChatViewController.m: In function '-[ChatViewController send:isJSON:]':/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:144: error: 'webSocket' undeclared (first use in this function)/Users/tomlongson/code/mapchat/Classes/ChatViewController.m: At top level:/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:216: error: expected ')' before 'ZTWebSocket'/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:221: error: expected ')' before 'ZTWebSocket'/Users/tomlongson/code/mapchat/Classes/ChatViewController.m: In function '-[ChatViewController webSocket:didFailWithError:]':/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:222: error: 'ZTWebSocketErrorConnectionFailed' undeclared (first use in this function)/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:224: error: 'ZTWebSocketErrorHandshakeFailed' undeclared (first use in this function)/Users/tomlongson/code/mapchat/Classes/ChatViewController.m: At top level:/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:232: error: expected ')' before 'ZTWebSocket'/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:237: error: expected ')' before 'ZTWebSocket'/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:242: error: expected ')' before 'ZTWebSocket'/Users/tomlongson/code/mapchat/Classes/ChatViewController.m: In function '-[ChatViewController textFieldShouldReturn:]':/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:251: error: 'webSocket' undeclared (first use in this function)/Users/tomlongson/code/mapchat/Classes/ChatViewController.m: In function '-[ChatViewController reconnect:]':/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:267: error: 'webSocket' undeclared (first use in this function)/Users/tomlongson/code/mapchat/Classes/ChatViewController.m: In function '-[ChatViewController dealloc]':/Users/tomlongson/code/mapchat/Classes/ChatViewController.m:273: error: 'webSocket' undeclared (first use in this function)18(4@38"Zimt/Zimt.h: No such file or directory315900512#86#113#2(7@81"In file included from /Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900512#18446744073709551615#0#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900467#12#0#12#0#0"0(13@101"Zimt/Zimt.h: No such file or directory in /Users/tomlongson/code/mapchat/Classes/ChatViewController.h315900512#18446744073709551615#0#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.h315900467#10#0#10#0#0"0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.h315900467#10#0#10#0#28"*: No such file or directory0(4@58"Cannot find protocol declaration for 'ZTWebSocketDelegate'315900512#285#130#2(7@81"In file included from /Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900512#18446744073709551615#0#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900467#12#0#12#0#0"0(13@121"Cannot find protocol declaration for 'ZTWebSocketDelegate' in /Users/tomlongson/code/mapchat/Classes/ChatViewController.h315900512#18446744073709551615#0#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.h315900467#13#0#13#0#0"0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.h315900467#13#0#13#0#0"0(4@54"Expected specifier-qualifier-list before 'ZTWebSocket'315900512#415#126#2(7@81"In file included from /Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900512#18446744073709551615#0#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900467#12#0#12#0#0"0(13@117"Expected specifier-qualifier-list before 'ZTWebSocket' in /Users/tomlongson/code/mapchat/Classes/ChatViewController.h315900512#18446744073709551615#0#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.h315900467#14#0#14#0#0"0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.h315900467#14#0#14#0#19"expected * before *0(4@51"'webSocket' undeclared (first use in this function)315900512#651#123#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900467#49#0#49#0#43"'*' undeclared (first use in this function)0(4@53"'ZTWebSocket' undeclared (first use in this function)315900512#1000#125#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900467#49#0#49#0#43"'*' undeclared (first use in this function)0(4@51"'webSocket' undeclared (first use in this function)315900512#1236#124#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900467#144#0#144#0#43"'*' undeclared (first use in this function)0(23@13"At top level:315900512#1360#75#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900467#0#0#0#0#0"0(4@33"Expected ')' before 'ZTWebSocket'315900512#1435#106#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900467#216#0#216#0#19"expected * before *0(4@33"Expected ')' before 'ZTWebSocket'315900512#1541#106#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900467#221#0#221#0#19"expected * before *0(4@74"'ZTWebSocketErrorConnectionFailed' undeclared (first use in this function)315900512#1773#147#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900467#222#0#222#0#43"'*' undeclared (first use in this function)0(4@73"'ZTWebSocketErrorHandshakeFailed' undeclared (first use in this function)315900512#1920#146#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900467#224#0#224#0#43"'*' undeclared (first use in this function)0(23@13"At top level:315900512#2066#75#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900467#0#0#0#0#0"0(4@33"Expected ')' before 'ZTWebSocket'315900512#2141#106#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900467#232#0#232#0#19"expected * before *0(4@33"Expected ')' before 'ZTWebSocket'315900512#2247#106#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900467#237#0#237#0#19"expected * before *0(4@33"Expected ')' before 'ZTWebSocket'315900512#2353#106#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900467#242#0#242#0#19"expected * before *0(4@51"'webSocket' undeclared (first use in this function)315900512#2580#124#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900467#251#0#251#0#43"'*' undeclared (first use in this function)0(4@51"'webSocket' undeclared (first use in this function)315900512#2813#124#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900467#267#0#267#0#43"'*' undeclared (first use in this function)0(4@51"'webSocket' undeclared (first use in this function)315900512#3043#124#0(6@59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m315900467#273#0#273#0#43"'*' undeclared (first use in this function)0(0#0#59"/Users/tomlongson/code/mapchat/Classes/ChatViewController.m8618371904#1885"    cd /Users/tomlongson/code/mapchat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-generated-files.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-project-headers.hmap -F/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator -iquote../../src -I/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources/i386 -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch -c /Users/tomlongson/code/mapchat/Classes/ChatViewController.m -o /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/ChatViewController.o1#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/NSCharacterSet_Extensions.o /Users/tomlongson/code/mapchat/Source/Extensions/NSCharacterSet_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315900512.239166
-e315900512.315094
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/NSCharacterSet_Extensions.o
-x/Users/tomlongson/code/mapchat/Source/Extensions/NSCharacterSet_Extensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/tomlongson/code/mapchat/Source/Extensions/NSCharacterSet_Extensions.m315900512#315900512#0(0"0(0#0#76"/Users/tomlongson/code/mapchat/Source/Extensions/NSCharacterSet_Extensions.m8614463296#1909"    cd /Users/tomlongson/code/mapchat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-generated-files.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-project-headers.hmap -F/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator -iquote../../src -I/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources/i386 -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch -c /Users/tomlongson/code/mapchat/Source/Extensions/NSCharacterSet_Extensions.m -o /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/NSCharacterSet_Extensions.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Users/tomlongson/code/mapchat/Source/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315900512.280935
-e315900512.356859
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
-x/Users/tomlongson/code/mapchat/Source/Extensions/NSDictionary_JSONExtensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/tomlongson/code/mapchat/Source/Extensions/NSDictionary_JSONExtensions.m315900512#315900512#0(0"0(0#0#78"/Users/tomlongson/code/mapchat/Source/Extensions/NSDictionary_JSONExtensions.m8613283872#1913"    cd /Users/tomlongson/code/mapchat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-generated-files.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-project-headers.hmap -F/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator -iquote../../src -I/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources/i386 -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch -c /Users/tomlongson/code/mapchat/Source/Extensions/NSDictionary_JSONExtensions.m -o /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/NSDictionary_JSONExtensions.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/NSScanner_Extensions.o /Users/tomlongson/code/mapchat/Source/Extensions/NSScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315900512.312342
-e315900512.415500
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/NSScanner_Extensions.o
-x/Users/tomlongson/code/mapchat/Source/Extensions/NSScanner_Extensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/tomlongson/code/mapchat/Source/Extensions/NSScanner_Extensions.m315900512#315900512#0(0"0(0#0#71"/Users/tomlongson/code/mapchat/Source/Extensions/NSScanner_Extensions.m8616351552#1899"    cd /Users/tomlongson/code/mapchat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-generated-files.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-project-headers.hmap -F/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator -iquote../../src -I/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources/i386 -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch -c /Users/tomlongson/code/mapchat/Source/Extensions/NSScanner_Extensions.m -o /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/NSScanner_Extensions.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/main.o /Users/tomlongson/code/mapchat/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315900512.043968
-e315900512.133159
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/main.o
-x/Users/tomlongson/code/mapchat/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@45"Compile /Users/tomlongson/code/mapchat/main.m315900512#315900512#0(0"0(0#0#37"/Users/tomlongson/code/mapchat/main.m8618709568#1849"    cd /Users/tomlongson/code/mapchat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-generated-files.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-project-headers.hmap -F/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator -iquote../../src -I/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources/i386 -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch -c /Users/tomlongson/code/mapchat/main.m -o /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/tomlongson/code/mapchat/ChatViewController.xib
-r0
-
-CCompileXIB /Users/tomlongson/code/mapchat/MainWindow.xib
-r0
-
-CGenerateDSYMFile /Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/Chat.app.dSYM /Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/Chat.app/Chat
-r0
-
-CLd /Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/Chat.app/Chat normal i386
-r0
-
-CProcessInfoPlistFile /Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/Chat.app/Info.plist Chat-Info.plist
-r0
-
-CProcessPCH /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch.gch Chat_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s315900511.044801
-e315900512.043847
-r1
-xProcessPCH
-x/var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch.gch
-xChat_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Chat_Prefix.pch315900511#315900512#0(0"0(0#0#46"/Users/tomlongson/code/mapchat/Chat_Prefix.pch8615781632#1744"    cd /Users/tomlongson/code/mapchat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-generated-files.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Chat-project-headers.hmap -F/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator -iquote../../src -I/Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources/i386 -I/Users/tomlongson/code/mapchat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/DerivedSources -c /Users/tomlongson/code/mapchat/Chat_Prefix.pch -o /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-dkfhxucqscjuhjbymwwaqezfvfwf/Chat_Prefix.pch.gch0#
-
-CTouch /Users/tomlongson/code/mapchat/build/Debug-iphonesimulator/Chat.app
-r0
-

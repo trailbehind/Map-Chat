@@ -4,20 +4,20 @@
 //
 
 #import "ChatViewController.h"
+#import "ChatAppDelegate.h"
+#import "ChatController.h"
+
+#define TEXTFIELD_BG_HEIGHT 40
 
 @implementation ChatViewController
 
--(void)dealloc {
-  [client release];
+- (void)dealloc {
   [super dealloc];
 }
 
-- (void)log:(NSString *)message {
-  NSLog(@"%@", message);
-}
 
--(void)write:(NSString*)text {
-  // write raw text to the textView
+// write raw text to the textView
+- (void)write:(NSString*)text {
   NSMutableString* newText = [NSMutableString stringWithString:textView.text];
   [newText appendString:text];
   [newText appendString:@"\n"];
@@ -25,115 +25,101 @@
   [textView scrollRangeToVisible:NSMakeRange([textView.text length], 0)];
 }
 
-- (void)onChatMessage:(NSDictionary *)msgObj {
-  // print a message e.g. "user: msg"
-  NSString *formattedMsg;
-  formattedMsg = [NSString stringWithFormat: @"%@: %@", [msgObj objectForKey:@"username"], [msgObj objectForKey:@"message"]];
-  [self write:formattedMsg];	
-}
-
-- (void)onAnnouncement:(NSDictionary *)msgObj {
-  // print an announcement e.g. "** msg **"
-  NSString *formattedMsg;
-  formattedMsg = [NSString stringWithFormat: @"** %@ **", [msgObj objectForKey:@"announcement"]];
-  [self write:formattedMsg];
-}
-
-- (void)onMessage:(NSDictionary *) msgObj {
-  // strategy for different types of objects
-  BOOL isAnnouncement = ([msgObj objectForKey:@"announcement"] != nil);
-  if (isAnnouncement) {
-    [self onAnnouncement:msgObj];
-  } else {
-    [self onChatMessage:msgObj];
-  }
-}
-
-- (void)disconnect {
-  [client disconnect];
-}
-
-- (void)connect {
-  // TODO: make sure the reconnect button is working correctly
-  reconnectButton.hidden = YES;
-  // hardcoded for now
-  NSString* host = @"173.203.56.222";
-  NSInteger* port = 9202;
-  
-  // setup and connect to the server with websockets
-  client = [[SocketIoClient alloc] initWithHost:host port:port];
-  client.delegate = self;
-  
-  [client connect];	
-}
-
 
 - (BOOL)textFieldShouldReturn:(UITextField *)aTextField {
   // only send if we're connected
-  if ([client isConnected]) {
-    // encode the message in JSON
-    NSDictionary *dictionary = [NSDictionary dictionaryWithObject:aTextField.text forKey:@"msg"];
-    NSError *error = NULL;
-    NSData *jsonData = [[CJSONSerializer serializer] serializeObject:dictionary error:error];
-    NSString *jsonDataStr = [[[NSString alloc] initWithData:jsonData encoding:NSASCIIStringEncoding]autorelease];
-		
-    [client send:jsonDataStr isJSON:NO];
-    [self write:textField.text];
-  } else {
-    [self write:@"Not connected."];
-  }
+  ChatAppDelegate *appDelegate = (ChatAppDelegate *)[[UIApplication sharedApplication] delegate];
+	BOOL didSendMessage = [appDelegate.chatController sendMessage:textField.text];
+	
   // clear out the input box
   [textField setText:@""];
-  return NO;	
+  return didSendMessage;	
 }
 
--(IBAction)reconnect:(id)sender {
-  if (![client isConnected]) {
-    [self connect];
-  }
+
+- (void)viewDidUnload {
+	[textView release];
+	[textFieldBackground release];
+	[textField release];
 }
 
-- (void)socketIoClientDidConnect:(SocketIoClient *)client {
-  NSLog(@"Connected.");
-}
 
-- (void)socketIoClientDidDisconnect:(SocketIoClient *)client {
-  NSLog(@"Disconnected.");
-  [self write:@"Disconnected."];
-  reconnectButton.hidden = NO;
-}
+-(void) keyboardWillShow:(NSNotification *) note {
+	// get the frame and center of the keyboard so we can move the textField
+	 CGRect keyboardFrame;
+  [[note.userInfo valueForKey:UIKeyboardBoundsUserInfoKey] getValue: &keyboardFrame];
+  CGPoint keyboardCenter; 
+  [[note.userInfo valueForKey:UIKeyboardCenterEndUserInfoKey] getValue: &keyboardCenter];
 
-- (void)socketIoClient:(SocketIoClient *)client didReceiveMessage:(NSString *)msg isJSON:(BOOL)isJSON {
-  NSLog(@"Received: %@", msg);
+  // make a copy of the textField background frame so we can modify it
+  CGRect newTextFieldBGFrame  = textFieldBackground.frame;
 	
-  // TODO: either assume it's always JSON or get the server to send the "correct" frame.
-  // decode JSON
-  NSError *error = nil;
-  NSDictionary *jsonDict = [[CJSONDeserializer deserializer] deserializeAsDictionary:[msg dataUsingEncoding:NSUTF32BigEndianStringEncoding] error:&error];
-		
-  // process resulting data
-  if ([jsonDict objectForKey:@"userlist"] == nil) {
-    BOOL multipleMessages = ([jsonDict objectForKey:@"messages"] != nil);
-    if (multipleMessages) {
-      for (NSString* key in jsonDict) {
-        id value = [jsonDict objectForKey:key];
-        for (id someMsg in value) {
-          [self onMessage:someMsg];
-        }
-      }
-    } else {
-      [self onMessage:jsonDict];
-    }
-  }
+	CGRect newTextViewFrame = textView.frame;
+	
+	// set the y-origin to above the keyboard
+	int statusBarHeight = 20;
+  newTextFieldBGFrame.origin.y =  
+	  keyboardCenter.y 
+   	 - keyboardFrame.size.height/2 
+		 - TEXTFIELD_BG_HEIGHT 
+	   - self.navigationController.navigationBar.frame.size.height 
+	   - statusBarHeight;
+	// assign the new frame back to the textFieldBackground's frame
+  textFieldBackground.frame = newTextFieldBGFrame;
+	
+	// reduce the size of the textView to make room for the keyboard and textField
+	newTextViewFrame.size.height =  
+	  self.view.frame.size.height 
+	- keyboardFrame.size.height 
+	- TEXTFIELD_BG_HEIGHT;
+	// assign the new frame back to the textView's frame
+  textView.frame = newTextViewFrame;
+	
+	
 }
 
--(void)viewDidLoad {
-  // init
-  [self connect];
+
+- (void)viewDidLoad {
+	// check with the chatController for a connection, or wait for the connection
+	[super viewDidLoad];
+	// create the textView that shows the chat
+	textView = [[UITextView alloc]initWithFrame:self.view.frame];
+	[self.view addSubview:textView];
+
+	// create the gray background for the chat entry text field
+  float textFieldYOrigin = self.view.frame.size.height
+	                         - TEXTFIELD_BG_HEIGHT
+													 - self.navigationController.navigationBar.frame.size.height;
+	CGRect textFieldBGFrame = CGRectMake(0, 
+																			 textFieldYOrigin,
+																			 self.view.frame.size.width, 
+																			 TEXTFIELD_BG_HEIGHT);
+	textFieldBackground = [[UIView alloc]initWithFrame:textFieldBGFrame];
+	textFieldBackground.backgroundColor = [UIColor grayColor];
+	[self.view addSubview:textFieldBackground];
 	
-  [textView becomeFirstResponder];
-  [textField becomeFirstResponder];
+	// create the textField to enter chats and add it to the gray background
+  int padding = 5;
+	textField = [[UITextField alloc]initWithFrame:CGRectMake(padding, 
+																													 padding, 
+																													 textFieldBGFrame.size.width-padding*2, 
+																													 textFieldBGFrame.size.height-padding*2)];
+	textField.borderStyle = UITextBorderStyleRoundedRect;
+	textField.delegate = self;
+	[textFieldBackground addSubview:textField];
+	
+	// add a notification for when the keyboard shows, which moves up the text field
+  NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
+  [nc addObserver:self 
+         selector:@selector(keyboardWillShow:) 
+             name:UIKeyboardWillShowNotification 
+           object:nil];
+	// show the keyboard 
+	[textField becomeFirstResponder];
+  // remove the notification observer since the keyboard never shows or hides again
+	[nc performSelector:@selector(removeObserver:) withObject:self afterDelay:1];
 }
+
 
 
 @end
