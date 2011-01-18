@@ -28,12 +28,13 @@
 	
   // init the table of rooms 
 	roomTableViewController = [[RoomTableViewController alloc]initWithStyle:UITableViewStylePlain];
-	
+  chatController.roomTableViewControllerDelegate = roomTableViewController;
+
 	// create a navigationController (which shows the top bar) 
 	// and make the roomTableViewController the main view
 	roomNavController = [[UINavigationController alloc]initWithRootViewController:roomTableViewController];
 	roomNavController.navigationBar.barStyle = UIBarStyleBlack;
-	
+	  
 	// add the navigationController's view to the window
 	[window addSubview:roomNavController.view];
 	

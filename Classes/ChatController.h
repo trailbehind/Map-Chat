@@ -12,6 +12,7 @@
 @protocol ChatControllerDelegate
 
 - (void) write:(NSString*)text;
+- (void) updateList:(NSDictionary*)roomList;
 
 @end
 
@@ -20,11 +21,12 @@
 	
 	SocketIoClient *client;
 	id <ChatControllerDelegate> delegate;
+  id <ChatControllerDelegate> roomTableViewControllerDelegate;
 	
 }
 
 @property(nonatomic,assign) id <ChatControllerDelegate> delegate;
-
+@property(nonatomic,assign) id <ChatControllerDelegate> roomTableViewControllerDelegate;
 
 - (void) connect;
 - (BOOL) sendMessage:(NSString*)text;

@@ -9,7 +9,7 @@
 
 
 @implementation ChatController
-@synthesize delegate;
+@synthesize delegate, roomTableViewControllerDelegate;
 
 - (void)dealloc {
   [client release];
@@ -26,20 +26,30 @@
 
 
 - (void)onAnnouncement:(NSDictionary *)msgObj {
-  // print an announcement e.g. "** msg **"
+  // print an announcement e.g. "* msg *"
   NSString *formattedMsg;
-  formattedMsg = [NSString stringWithFormat: @"** %@ **", [msgObj objectForKey:@"announcement"]];
+  formattedMsg = [NSString stringWithFormat: @"* %@ *", [msgObj objectForKey:@"announcement"]];
   [self.delegate write:formattedMsg];
 }
 
+- (void)onRoomList:(NSDictionary *)msgObj {
+  NSLog(@"At onRoomList");
+  [self.roomTableViewControllerDelegate updateList:(NSArray*)[msgObj objectForKey:@"rooms"]];
+  
+}
 
 - (void)onMessage:(NSDictionary *) msgObj {
   // strategy for different types of objects
   BOOL isAnnouncement = ([msgObj objectForKey:@"announcement"] != nil);
+  BOOL isChatMessage = ([msgObj objectForKey:@"message"] != nil);
+  BOOL isRoomList = ([msgObj objectForKey:@"rooms"] != nil);
   if (isAnnouncement) {
     [self onAnnouncement:msgObj];
-  } else {
+  } else if (isChatMessage) {
     [self onChatMessage:msgObj];
+  } else if (isRoomList) {
+    [self onRoomList:msgObj];
+    // probably metadata
   }
 }
 
@@ -97,28 +107,34 @@
 }
 
 
-- (BOOL) sendMessage:(NSString*)text {
-	if ([client isConnected]) {
+- (BOOL) sendJson:(NSDictionary*)dictionary {
+  if ([client isConnected]) {
     // encode the message in JSON
-    NSDictionary *dictionary = [NSDictionary dictionaryWithObject:text forKey:@"msg"];
     NSError *error = NULL;
     NSData *jsonData = [[CJSONSerializer serializer] serializeObject:dictionary error:&error];
     NSString *jsonDataStr = [[[NSString alloc] initWithData:jsonData encoding:NSASCIIStringEncoding]autorelease];
 		
     [client send:jsonDataStr isJSON:NO];
-    [self.delegate write:text];
 		return YES;
   } else {
     [self.delegate write:@"Not connected."];
+    [self connect];
   }
 	return NO;
+  
 }
 
-//- (void)reconnect:(id)sender {
-//  if (![client isConnected]) {
-//    [self connect];
-//  }
-//}
+
+- (BOOL) sendMessage:(NSString*)text {
+  NSDictionary *dictionary = [NSDictionary dictionaryWithObject:text forKey:@"msg"];
+  return [self sendJson:dictionary];
+}
+
+
+- (BOOL) joinRoom:(NSString*)text {
+  NSDictionary *dictionary = [NSDictionary dictionaryWithObject:text forKey:@"joinRoom"];
+  return [self sendJson:dictionary];
+}
 
 
 @end

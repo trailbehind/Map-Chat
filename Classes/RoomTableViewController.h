@@ -10,7 +10,8 @@
 
 
 @interface RoomTableViewController : UITableViewController {
-
+  NSMutableArray *listOfRooms;
 }
 
 @end
+

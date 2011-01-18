@@ -27,6 +27,16 @@
 }
 
 
+- (void)updateList:(NSArray *)roomList {
+  [listOfRooms release];
+  listOfRooms = [[NSMutableArray alloc] init];
+  for (id room in roomList) {
+    [listOfRooms addObject:room];
+  }
+  [self.tableView reloadData];
+}
+
+
 #pragma mark -
 #pragma mark View lifecycle
 
@@ -77,7 +87,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 	// Return the number of rows in the section.
-	return 1;
+	return [listOfRooms count];
 }
 
 
@@ -91,7 +101,7 @@
 		cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
 	}
 	
-	cell.textLabel.text = @"Nexus";
+	cell.textLabel.text = [listOfRooms objectAtIndex:indexPath.row];
 	
 	return cell;
 }
@@ -105,10 +115,13 @@
 	// create and push a ChatViewController
 	ChatViewController *chatViewController = [[[ChatViewController alloc] init]autorelease];
 	UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
-	chatViewController.title = cell.textLabel.text;
+  NSString *roomName = cell.textLabel.text;
+	chatViewController.title = roomName;
+  
 	ChatAppDelegate *appDelegate = (ChatAppDelegate *)[[UIApplication sharedApplication] delegate];
   appDelegate.chatController.delegate = chatViewController;
-	
+  BOOL didJoinRoom = [appDelegate.chatController joinRoom:roomName];
+
 	[self.navigationController pushViewController:chatViewController animated:YES];
 }
 
