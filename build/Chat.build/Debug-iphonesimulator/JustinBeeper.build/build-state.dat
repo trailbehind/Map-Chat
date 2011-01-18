@@ -1,7 +1,7 @@
 TJustinBeeper
 v7
 r0
-t317001472.513512
+t317002829.634490
 cCheck dependencies
 cProcessInfoPlistFile /Users/efb/Desktop/Map-Chat/build/Debug-iphonesimulator/Chat.app/Info.plist Chat-Info.plist
 cCompileXIB /Users/efb/Desktop/Map-Chat/MainWindow.xib
@@ -473,7 +473,7 @@ s910
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies317001471#317001471#0(0"0(0#1#0"8616498784#0"0#
+lSLF07#2@18"Check dependencies317002829#317002829#0(0"0(0#1#0"8608364320#0"0#
 
 CCompileC build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/AsyncSocket.o /Users/efb/Desktop/Map-Chat/Source/AsyncSocket.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s317001472.173570

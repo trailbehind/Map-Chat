@@ -41,6 +41,8 @@
 	[textView release];
 	[textFieldBackground release];
 	[textField release];
+	ChatAppDelegate *appDelegate = (ChatAppDelegate *)[[UIApplication sharedApplication] delegate];
+  appDelegate.chatController.delegate = nil;
 }
 
 

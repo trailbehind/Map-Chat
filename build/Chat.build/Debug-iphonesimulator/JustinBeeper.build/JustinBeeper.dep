@@ -1,9 +1,3 @@
-0238a291549204161bac18d213f5e7c8 44d25911ad2e8f3eca58b44364c681d1 ffffffffffffffffffffffffffffffff 204 /Users/efb/Desktop/Map-Chat/build/Debug-iphonesimulator/Chat.app
-000000004d34d6a70000000000004572 b0e2877a83c074e8f744cf34f71f13fe ffffffffffffffffffffffffffffffff 981 /Users/efb/Desktop/Map-Chat/build/Debug-iphonesimulator/Chat.app/MainWindow.nib
-00000000000000000000000000000000 e0fae5ed7eab2f5a91c9edab8a4b862a ffffffffffffffffffffffffffffffff 8 /Users/efb/Desktop/Map-Chat/build/Debug-iphonesimulator/Chat.app/PkgInfo
-00000000000000000000000000000000 e0fae5ed7eab2f5a91c9edab8a4b862a ffffffffffffffffffffffffffffffff 579 /Users/efb/Desktop/Map-Chat/build/Debug-iphonesimulator/Chat.app/Info.plist
-00000000000000000000000000000000 a9f8ca0eaa2368066e852544c15e6fde ffffffffffffffffffffffffffffffff 102 /Users/efb/Desktop/Map-Chat/build/Debug-iphonesimulator/Chat.app.dSYM
-2fc2221e213976b3c315a0f97b0f5740 9d1807f5bb5fd0ea2ffd771f9fe5e604 ffffffffffffffffffffffffffffffff 209680 /Users/efb/Desktop/Map-Chat/build/Debug-iphonesimulator/Chat.app/Chat
 3a63fbf6be89496a6aa4caebf6a75055 3a43d0278ba01af2afd9328fae74cc7f ffffffffffffffffffffffffffffffff 22324 /Users/efb/Desktop/Map-Chat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/ChatController.o
 3a63fbf6f3bd823e6aa4caebf6a75be1 deb14e8dcce7e1a74338121c703ef0b9 ffffffffffffffffffffffffffffffff 52576 /Users/efb/Desktop/Map-Chat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/RoomTableViewController.o
 3a63fbf6be894e306aa4caebf6a7137f a06a84b95b6b4b595e7914a48b00705d ffffffffffffffffffffffffffffffff 33144 /Users/efb/Desktop/Map-Chat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/WebSocket.o
@@ -23,4 +17,10 @@
 3a63fbf6f248138e6aa4caebf6a753e9 ed44129c55f2f12b5b673678df643bef ffffffffffffffffffffffffffffffff 59176 /Users/efb/Desktop/Map-Chat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/ChatViewController.o
 3a63fbf6f3bd9d4c6aa4caebf6a752f6 525cfd45ee408a39fcba0ac50c500136 ffffffffffffffffffffffffffffffff 53048 /Users/efb/Desktop/Map-Chat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/ChatAppDelegate.o
 3a63fbf6f248662f6aa4caebf6a75dfe 0b0b63521fb7aff03f73edf45f05fbf2 ffffffffffffffffffffffffffffffff 6280 /Users/efb/Desktop/Map-Chat/build/Chat.build/Debug-iphonesimulator/JustinBeeper.build/Objects-normal/i386/main.o
+00000000000000000000000000000000 a9f8ca0eaa2368066e852544c15e6fde ffffffffffffffffffffffffffffffff 102 /Users/efb/Desktop/Map-Chat/build/Debug-iphonesimulator/Chat.app.dSYM
+0238a291549204161bac18d213f5e7c8 44d25911ad2e8f3eca58b44364c681d1 ffffffffffffffffffffffffffffffff 204 /Users/efb/Desktop/Map-Chat/build/Debug-iphonesimulator/Chat.app
+2fc2221e213976b3c315a0f97b0f5740 9d1807f5bb5fd0ea2ffd771f9fe5e604 ffffffffffffffffffffffffffffffff 209680 /Users/efb/Desktop/Map-Chat/build/Debug-iphonesimulator/Chat.app/Chat
 000000004d34ab680000000000001e76 3a63fbf6be8944706aa4caebf6a74829 ffffffffffffffffffffffffffffffff 15441104 /var/folders/O7/O7dplrxGGay6DYurSVXybU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-alxhjfrmtylsrtganoliywzdzlvl/Chat_Prefix.pch.gch
+000000004d34d6a70000000000004572 b0e2877a83c074e8f744cf34f71f13fe ffffffffffffffffffffffffffffffff 981 /Users/efb/Desktop/Map-Chat/build/Debug-iphonesimulator/Chat.app/MainWindow.nib
+00000000000000000000000000000000 e0fae5ed7eab2f5a91c9edab8a4b862a ffffffffffffffffffffffffffffffff 8 /Users/efb/Desktop/Map-Chat/build/Debug-iphonesimulator/Chat.app/PkgInfo
+00000000000000000000000000000000 e0fae5ed7eab2f5a91c9edab8a4b862a ffffffffffffffffffffffffffffffff 579 /Users/efb/Desktop/Map-Chat/build/Debug-iphonesimulator/Chat.app/Info.plist
