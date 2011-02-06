@@ -10,7 +10,6 @@
 	UITextField* textField;
 	UIView *textFieldBackground;
 	UIWebView *chatWebView;
-	NSMutableArray *chatArray;
 	
 }
 
