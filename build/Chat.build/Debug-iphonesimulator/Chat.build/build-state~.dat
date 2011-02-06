@@ -1,300 +1,0 @@
-TChat
-v7
-r0
-t315771233.059689
-cCheck dependencies
-cProcessInfoPlistFile /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Info.plist Chat-Info.plist
-cCompileXIB /Users/tomlongson/code/zimt/samples/Chat/MainWindow.xib
-cCompileXIB /Users/tomlongson/code/zimt/samples/Chat/ChatViewController.xib
-cProcessPCH /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch.gch Chat_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.o /Users/tomlongson/code/zimt/samples/Chat/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatAppDelegate.o /Users/tomlongson/code/zimt/samples/Chat/Classes/ChatAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatViewController.o /Users/tomlongson/code/zimt/samples/Chat/Classes/ChatViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat normal i386
-cGenerateDSYMFile /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app.dSYM /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat
-cTouch /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c000000004CC1224400000000001C3D40
-t1287725636
-s1850688
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004CC127DD00000000000001D0
-t1287727069
-s464
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Users/tomlongson/code/zimt/samples/Chat/ChatViewController.xib
-c000000004D2210B0000000000000649E
-t1294078128
-s25758
-
-N/Users/tomlongson/code/zimt/samples/Chat/Chat_Prefix.pch
-c000000004D2210B000000000000000B1
-t1294078128
-s177
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/tomlongson/code/zimt/samples/Chat/Classes/ChatAppDelegate.h
-c000000004D2210B000000000000001E3
-t1294078128
-s483
-i<UIKit/UIKit.h>
-
-N/Users/tomlongson/code/zimt/samples/Chat/Classes/ChatAppDelegate.m
-c000000004D2210B000000000000002AA
-t1294078128
-s682
-i"ChatAppDelegate.h"
-i"ChatViewController.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Classes/ChatViewController.h
-c000000004D2210B00000000000000234
-t1294078128
-s564
-i<UIKit/UIKit.h>
-i"Zimt/Zimt.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Classes/ChatViewController.m
-c000000004D2211C40000000000000821
-t1294078404
-s2081
-i"ChatViewController.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/MainWindow.xib
-c000000004D2210B0000000000000262B
-t1294078128
-s9771
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/Chat.LinkFileList
-c000000004D2211D3000000000000017B
-t1294078419
-s379
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatAppDelegate.o
-t1294078431
-s50384
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatViewController.o
-t1294078431
-s51404
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.o
-t1294078431
-s6308
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app
-t1294078433
-s238
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app.dSYM
-t1294078433
-s102
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat
-t1294078432
-s136756
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/ChatViewController.nib
-t1294078422
-s2382
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Info.plist
-t1294078419
-s579
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/MainWindow.nib
-t1294078421
-s1117
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/PkgInfo
-t1294078419
-s8
-
-N/Users/tomlongson/code/zimt/samples/Chat/main.m
-c000000004D2210B0000000000000017C
-t1294078128
-s380
-i<UIKit/UIKit.h>
-
-N/Users/tomlongson/code/zimt/src/Zimt/ZTFakeLocationManager.h
-c000000004D2210B0000000000000012F
-t1294078128
-s303
-i<Foundation/Foundation.h>
-i<CoreLocation/CoreLocation.h>
-
-N/Users/tomlongson/code/zimt/src/Zimt/ZTLog.h
-c000000004D2210B0000000000000012B
-t1294078128
-s299
-
-N/Users/tomlongson/code/zimt/src/Zimt/ZTWebSocket.h
-c000000004D2210B00000000000000681
-t1294078128
-s1665
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/zimt/src/Zimt/Zimt.h
-c000000004D2210B0000000000000005B
-t1294078128
-s91
-i"Zimt/ZTLog.h"
-i"Zimt/ZTFakeLocationManager.h"
-i"Zimt/ZTWebSocket.h"
-
-N/Users/tomlongson/code/zimt/src/build/Debug-iphonesimulator/libZimt.a
-c000000004D2211D30000000000063BB8
-t1294078419
-s408504
-
-N/var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch.gch
-t1294078427
-s15441104
-
-NChat-Info.plist
-c000000004D2210B0000000000000038E
-t1294078128
-s910
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies315771219#315771219#0(0"0(0#1#0"8605325856#0"0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatAppDelegate.o /Users/tomlongson/code/zimt/samples/Chat/Classes/ChatAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315771231.385820
-e315771231.934499
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatAppDelegate.o
-x/Users/tomlongson/code/zimt/samples/Chat/Classes/ChatAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/tomlongson/code/zimt/samples/Chat/Classes/ChatAppDelegate.m315771231#315771231#0(0"0(0#0#66"/Users/tomlongson/code/zimt/samples/Chat/Classes/ChatAppDelegate.m8604860768#2015"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/Classes/ChatAppDelegate.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatAppDelegate.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatViewController.o /Users/tomlongson/code/zimt/samples/Chat/Classes/ChatViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315771231.386663
-e315771231.942885
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatViewController.o
-x/Users/tomlongson/code/zimt/samples/Chat/Classes/ChatViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/tomlongson/code/zimt/samples/Chat/Classes/ChatViewController.m315771231#315771231#0(0"0(0#0#69"/Users/tomlongson/code/zimt/samples/Chat/Classes/ChatViewController.m8602472608#2021"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/Classes/ChatViewController.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatViewController.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.o /Users/tomlongson/code/zimt/samples/Chat/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315771231.384931
-e315771231.916316
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.o
-x/Users/tomlongson/code/zimt/samples/Chat/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/tomlongson/code/zimt/samples/Chat/main.m315771231#315771231#0(0"0(0#0#47"/Users/tomlongson/code/zimt/samples/Chat/main.m8605327680#1985"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/main.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/tomlongson/code/zimt/samples/Chat/ChatViewController.xib
-s315771219.671579
-e315771222.431215
-r1
-xCompileXIB
-x/Users/tomlongson/code/zimt/samples/Chat/ChatViewController.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@33"CompileXIB ChatViewController.xib315771219#315771222#0(168"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#63"/Users/tomlongson/code/zimt/samples/Chat/ChatViewController.xib8599328064#589"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/ChatViewController.nib /Users/tomlongson/code/zimt/samples/Chat/ChatViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/tomlongson/code/zimt/samples/Chat/MainWindow.xib
-s315771219.670937
-e315771221.244963
-r1
-xCompileXIB
-x/Users/tomlongson/code/zimt/samples/Chat/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib315771219#315771221#0(0"0(0#0#55"/Users/tomlongson/code/zimt/samples/Chat/MainWindow.xib8598956928#573"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/MainWindow.nib /Users/tomlongson/code/zimt/samples/Chat/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CGenerateDSYMFile /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app.dSYM /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat
-s315771232.899491
-e315771233.056796
-r1
-xGenerateDSYMFile
-x/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app.dSYM
-x/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat
-lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/Chat.app.dSYM build/Debug-iphonesimulator/Chat.app/Chat315771232#315771233#0(0"0(0#0#82"/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat8604531040#380"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat -o /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app.dSYM0#
-
-CLd /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat normal i386
-s315771231.943011
-e315771232.899323
-r1
-xLd
-x/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat
-xnormal
-xi386
-lSLF07#2@87"Link /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat315771231#315771232#0(0"0(0#0#0"8602515552#986"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -filelist /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/Chat.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 /Users/tomlongson/code/zimt/src/build/Debug-iphonesimulator/libZimt.a -framework Foundation -framework UIKit -framework CoreGraphics -framework CFNetwork -o /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat0#
-
-CProcessInfoPlistFile /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Info.plist Chat-Info.plist
-s315771219.667410
-e315771219.670838
-r1
-xProcessInfoPlistFile
-x/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Info.plist
-xChat-Info.plist
-lSLF07#2@23"Process Chat-Info.plist315771219#315771219#0(0"0(0#0#56"/Users/tomlongson/code/zimt/samples/Chat/Chat-Info.plist8601698816#476"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Chat-Info.plist -genpkginfo /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Info.plist0#
-
-CProcessPCH /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch.gch Chat_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s315771222.431356
-e315771231.384794
-r1
-xProcessPCH
-x/var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch.gch
-xChat_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Chat_Prefix.pch315771222#315771231#0(0"0(0#0#56"/Users/tomlongson/code/zimt/samples/Chat/Chat_Prefix.pch8602383136#1878"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -c /Users/tomlongson/code/zimt/samples/Chat/Chat_Prefix.pch -o /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch.gch0#
-
-CTouch /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app
-s315771233.056874
-e315771233.059656
-r1
-xTouch
-x/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app
-lSLF07#2@83"Touch /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app315771233#315771233#0(0"0(0#0#0"8605378592#279"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app0#
-

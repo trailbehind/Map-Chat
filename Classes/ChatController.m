@@ -19,9 +19,7 @@
 
 - (void)onChatMessage:(NSDictionary *)msgObj {
   // print a message e.g. "user: msg"
-  NSString *formattedMsg;
-  formattedMsg = [NSString stringWithFormat: @"%@: %@", [msgObj objectForKey:@"username"], [msgObj objectForKey:@"message"]];
-  [self.delegate write:formattedMsg];	
+  [self.delegate write:[msgObj objectForKey:@"message"] user:[msgObj objectForKey:@"username"]];	
 }
 
 
@@ -29,7 +27,7 @@
   // print an announcement e.g. "* msg *"
   NSString *formattedMsg;
   formattedMsg = [NSString stringWithFormat: @"* %@ *", [msgObj objectForKey:@"announcement"]];
-  [self.delegate write:formattedMsg];
+  [self.delegate write:formattedMsg user:nil];	
 }
 
 - (void)onRoomList:(NSDictionary *)msgObj {
@@ -85,7 +83,7 @@
 
 - (void)socketIoClientDidDisconnect:(SocketIoClient *)client {
   NSLog(@"Disconnected.");
-  [self.delegate write:@"Disconnected."];
+  [self.delegate write:@"Disconnected." user:nil];
 }
 
 
@@ -117,7 +115,7 @@
     [client send:jsonDataStr isJSON:NO];
 		return YES;
   } else {
-    [self.delegate write:@"Not connected."];
+    [self.delegate write:@"Not connected." user:nil];
     [self connect];
   }
 	return NO;

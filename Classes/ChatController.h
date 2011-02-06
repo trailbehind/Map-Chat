@@ -11,7 +11,7 @@
 
 @protocol ChatControllerDelegate
 
-- (void) write:(NSString*)text;
+- (void) write:(NSString*)text user:(NSString*)user;
 - (void) updateList:(NSDictionary*)roomList;
 
 @end

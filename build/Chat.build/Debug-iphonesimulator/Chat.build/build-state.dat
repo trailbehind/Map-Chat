@@ -1,857 +1,0 @@
-TChat
-v7
-r0
-t315882415.822364
-cCheck dependencies
-cProcessInfoPlistFile /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Info.plist Chat-Info.plist
-cCompileXIB /Users/tomlongson/code/zimt/samples/Chat/MainWindow.xib
-cCompileXIB /Users/tomlongson/code/zimt/samples/Chat/ChatViewController.xib
-cProcessPCH /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch.gch Chat_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.o /Users/tomlongson/code/zimt/samples/Chat/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatAppDelegate.o /Users/tomlongson/code/zimt/samples/Chat/Classes/ChatAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatViewController.o /Users/tomlongson/code/zimt/samples/Chat/Classes/ChatViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CDataScanner.o /Users/tomlongson/code/zimt/samples/Chat/Source/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CFilteringJSONSerializer.o /Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CFilteringJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o /Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CJSONDeserializer_BlocksExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONSerializedData.o /Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CJSONSerializedData.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CDataScanner_Extensions.o /Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/NSCharacterSet_Extensions.o /Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSCharacterSet_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/NSScanner_Extensions.o /Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONDeserializer.o /Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONScanner.o /Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONSerializer.o /Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat normal i386
-cGenerateDSYMFile /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app.dSYM /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat
-cTouch /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c000000004CC1224400000000001C3D40
-t1287725636
-s1850688
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004CC127DD00000000000001D0
-t1287727069
-s464
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Users/tomlongson/code/TouchJSON/Support/build/Debug-iphonesimulator/libTouchJSON.a
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/tomlongson/code/zimt/samples/Chat/ChatViewController.xib
-c000000004D2210B0000000000000649E
-t1294078128
-s25758
-
-N/Users/tomlongson/code/zimt/samples/Chat/Chat_Prefix.pch
-c000000004D2210B000000000000000B1
-t1294078128
-s177
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/tomlongson/code/zimt/samples/Chat/Classes/ChatAppDelegate.h
-c000000004D22934800000000000001E3
-t1294111560
-s483
-i<UIKit/UIKit.h>
-
-N/Users/tomlongson/code/zimt/samples/Chat/Classes/ChatAppDelegate.m
-c000000004D2210B000000000000002AA
-t1294078128
-s682
-i"ChatAppDelegate.h"
-i"ChatViewController.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Classes/ChatViewController.h
-c000000004D2293480000000000000314
-t1294111560
-s788
-i<UIKit/UIKit.h>
-i"Zimt/Zimt.h"
-i"CJSONDeserializer.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Classes/ChatViewController.m
-c000000004D23C0890000000000001B21
-t1294188681
-s6945
-i"ChatViewController.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/MainWindow.xib
-c000000004D2210B0000000000000262B
-t1294078128
-s9771
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/CDataScanner.h
-c000000004D2287C40000000000000A15
-t1294108612
-s2581
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/CDataScanner.m
-c000000004D2287C40000000000001B12
-t1294108612
-s6930
-i"CDataScanner.h"
-i"CDataScanner_Extensions.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CFilteringJSONSerializer.h
-c000000004D2287C40000000000000217
-t1294108612
-s535
-i"CJSONSerializer.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CFilteringJSONSerializer.m
-c000000004D2287C400000000000005A7
-t1294108612
-s1447
-i"CFilteringJSONSerializer.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CJSONDeserializer_BlocksExtensions.h
-c000000004D2287C400000000000001E4
-t1294108612
-s484
-i"CJSONDeserializer.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CJSONDeserializer_BlocksExtensions.m
-c000000004D2287C400000000000006FB
-t1294108612
-s1787
-i"CJSONDeserializer_BlocksExtensions.h"
-i"CJSONScanner.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CJSONSerializedData.h
-c000000004D2287C40000000000000166
-t1294108612
-s358
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CJSONSerializedData.m
-c000000004D2287C400000000000001FA
-t1294108612
-s506
-i"CJSONSerializedData.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/CDataScanner_Extensions.h
-c000000004D2287C400000000000005FB
-t1294108612
-s1531
-i"CDataScanner.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/CDataScanner_Extensions.m
-c000000004D2287C40000000000001071
-t1294108612
-s4209
-i"CDataScanner_Extensions.h"
-i"NSCharacterSet_Extensions.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSCharacterSet_Extensions.h
-c000000004D2287C4000000000000057A
-t1294108612
-s1402
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSCharacterSet_Extensions.m
-c000000004D2287C40000000000000816
-t1294108612
-s2070
-i"NSCharacterSet_Extensions.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSDictionary_JSONExtensions.h
-c000000004D2287C40000000000000598
-t1294108612
-s1432
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSDictionary_JSONExtensions.m
-c000000004D2287C40000000000000613
-t1294108612
-s1555
-i"NSDictionary_JSONExtensions.h"
-i"CJSONDeserializer.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSScanner_Extensions.h
-c000000004D2287C40000000000000656
-t1294108612
-s1622
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSScanner_Extensions.m
-c000000004D2287C40000000000000D6B
-t1294108612
-s3435
-i"NSScanner_Extensions.h"
-i"NSCharacterSet_Extensions.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONDeserializer.h
-c000000004D2287C4000000000000087E
-t1294108612
-s2174
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONDeserializer.m
-c000000004D2287C40000000000000E45
-t1294108612
-s3653
-i"CJSONDeserializer.h"
-i"CJSONScanner.h"
-i"CDataScanner.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONScanner.h
-c000000004D2287C40000000000000914
-t1294108612
-s2324
-i"CDataScanner.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONScanner.m
-c000000004D2287C40000000000004A00
-t1294108612
-s18944
-i"CJSONScanner.h"
-i"NSCharacterSet_Extensions.h"
-i"CDataScanner_Extensions.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONSerializer.h
-c000000004D2287C400000000000007B0
-t1294108612
-s1968
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONSerializer.m
-c000000004D2287C40000000000001E95
-t1294108612
-s7829
-i"CJSONSerializer.h"
-i"JSONRepresentation.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/Source/JSON/JSONRepresentation.h
-c000000004D2287C40000000000000148
-t1294108612
-s328
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CDataScanner.o
-t1294111526
-s29684
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CDataScanner_Extensions.o
-t1294111526
-s15252
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CFilteringJSONSerializer.o
-t1294111526
-s13072
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONDeserializer.o
-t1294111527
-s17164
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o
-t1294111526
-s19372
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONScanner.o
-t1294111527
-s41424
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONSerializedData.o
-t1294111526
-s8240
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONSerializer.o
-t1294111527
-s21716
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/Chat.LinkFileList
-c000000004D2293260000000000000745
-t1294111526
-s1861
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatAppDelegate.o
-t1294111560
-s50572
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatViewController.o
-t1294188685
-s69540
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/NSCharacterSet_Extensions.o
-t1294111526
-s7732
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
-t1294111526
-s7252
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/NSScanner_Extensions.o
-t1294111527
-s13564
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.o
-t1294078431
-s6308
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app
-t1294188685
-s238
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app.dSYM
-t1294188685
-s102
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat
-t1294188685
-s206024
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/ChatViewController.nib
-t1294078422
-s2382
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Info.plist
-t1294078419
-s579
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/MainWindow.nib
-t1294078421
-s1117
-
-N/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/PkgInfo
-t1294078419
-s8
-
-N/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.h
-c000000004D228814000000000000087E
-t1294108692
-s2174
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m
-c000000004D2288140000000000000E45
-t1294108692
-s3653
-i"CJSONDeserializer.h"
-i"CJSONScanner.h"
-i"CDataScanner.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h
-c000000004D2288140000000000000914
-t1294108692
-s2324
-i"CDataScanner.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m
-c000000004D2288140000000000004A00
-t1294108692
-s18944
-i"CJSONScanner.h"
-i"NSCharacterSet_Extensions.h"
-i"CDataScanner_Extensions.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONSerializer.h
-c000000004D22881400000000000007B0
-t1294108692
-s1968
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONSerializer.m
-c000000004D2288140000000000001E95
-t1294108692
-s7829
-i"CJSONSerializer.h"
-i"JSONRepresentation.h"
-
-N/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/JSONRepresentation.h
-c000000004D2288140000000000000148
-t1294108692
-s328
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/zimt/samples/Chat/main.m
-c000000004D2210B0000000000000017C
-t1294078128
-s380
-i<UIKit/UIKit.h>
-
-N/Users/tomlongson/code/zimt/src/Zimt/ZTFakeLocationManager.h
-c000000004D2210B0000000000000012F
-t1294078128
-s303
-i<Foundation/Foundation.h>
-i<CoreLocation/CoreLocation.h>
-
-N/Users/tomlongson/code/zimt/src/Zimt/ZTLog.h
-c000000004D2210B0000000000000012B
-t1294078128
-s299
-
-N/Users/tomlongson/code/zimt/src/Zimt/ZTWebSocket.h
-c000000004D2210B00000000000000681
-t1294078128
-s1665
-i<Foundation/Foundation.h>
-
-N/Users/tomlongson/code/zimt/src/Zimt/Zimt.h
-c000000004D2210B0000000000000005B
-t1294078128
-s91
-i"Zimt/ZTLog.h"
-i"Zimt/ZTFakeLocationManager.h"
-i"Zimt/ZTWebSocket.h"
-
-N/Users/tomlongson/code/zimt/src/build/Debug-iphonesimulator/libZimt.a
-c000000004D2211D30000000000063BB8
-t1294078419
-s408504
-
-N/var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch.gch
-t1294078427
-s15441104
-
-NChat-Info.plist
-c000000004D2210B0000000000000038E
-t1294078128
-s910
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies315882415#315882415#0(0"0(0#1#0"8616072064#0"0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CDataScanner.o /Users/tomlongson/code/zimt/samples/Chat/Source/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315804326.546781
-e315804326.727596
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CDataScanner.o
-x/Users/tomlongson/code/zimt/samples/Chat/Source/CDataScanner.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/tomlongson/code/zimt/samples/Chat/Source/CDataScanner.m315804326#315804326#0(0"0(0#0#62"/Users/tomlongson/code/zimt/samples/Chat/Source/CDataScanner.m8627906592#2008"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/Source/CDataScanner.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CDataScanner.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CDataScanner_Extensions.o /Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315804326.725212
-e315804326.840959
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CDataScanner_Extensions.o
-x/Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/CDataScanner_Extensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/CDataScanner_Extensions.m315804326#315804326#0(0"0(0#0#84"/Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/CDataScanner_Extensions.m8625417632#2041"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/CDataScanner_Extensions.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CDataScanner_Extensions.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CFilteringJSONSerializer.o /Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CFilteringJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315804326.547918
-e315804326.704576
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CFilteringJSONSerializer.o
-x/Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CFilteringJSONSerializer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CFilteringJSONSerializer.m315804326#315804326#0(0"0(0#0#87"/Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CFilteringJSONSerializer.m8627395808#2045"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CFilteringJSONSerializer.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CFilteringJSONSerializer.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONDeserializer.o /Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315804326.877338
-e315804327.103453
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONDeserializer.o
-x/Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONDeserializer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONDeserializer.m315804326#315804327#0(0"0(0#0#72"/Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONDeserializer.m8631293888#2023"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONDeserializer.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONDeserializer.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONDeserializer.o /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315803081.079563
-e315803081.131035
-r0
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONDeserializer.o
-x/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m:32:
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h:30:25: error: CDataScanner.h: No such file or directory
-oIn file included from /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m:32:
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h:33: error: cannot find interface declaration for 'CDataScanner', superclass of 'CJSONScanner'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m: In function '-[CJSONDeserializer dealloc]':
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m:59: warning: 'CJSONScanner' may not respond to '-release'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m:59: warning: (Messages without a matching method signature
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m:59: warning: will be assumed to return 'id' and accept
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m:59: warning: '...' as arguments.)
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m: In function '-[CJSONDeserializer scanner]':
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m:71: warning: 'CJSONScanner' may not respond to '+alloc'
-lSLF07#2@77"Compile /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m315803081#315803081#0(1314"In file included from /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m:32:/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h:30:25: error: CDataScanner.h: No such file or directoryIn file included from /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m:32:/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h:33: error: cannot find interface declaration for 'CDataScanner', superclass of 'CJSONScanner'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m: In function '-[CJSONDeserializer dealloc]':/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m:59: warning: 'CJSONScanner' may not respond to '-release'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m:59: warning: (Messages without a matching method signature/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m:59: warning: will be assumed to return 'id' and accept/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m:59: warning: '...' as arguments.)/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m: In function '-[CJSONDeserializer scanner]':/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m:71: warning: 'CJSONScanner' may not respond to '+alloc'5(4@41"CDataScanner.h: No such file or directory315803081#96#121#2(7@91"In file included from /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m315803081#18446744073709551615#0#0(6@69"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m315801492#32#0#32#0#0"0(13@109"CDataScanner.h: No such file or directory in /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h315803081#18446744073709551615#0#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h315801492#30#0#30#0#0"0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h315801492#30#0#30#0#28"*: No such file or directory0(4@82"Cannot find interface declaration for 'CDataScanner', superclass of 'CJSONScanner'315803081#313#159#2(7@91"In file included from /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m315803081#18446744073709551615#0#0(6@69"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m315801492#32#0#32#0#0"0(13@150"Cannot find interface declaration for 'CDataScanner', superclass of 'CJSONScanner' in /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h315803081#18446744073709551615#0#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h315801492#33#0#33#0#0"0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h315801492#33#0#33#0#60"cannot find interface declaration for '*', superclass of '*'0(22@44"'CJSONScanner' may not respond to '-release'315803081#587#128#0(6@69"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m315801492#59#0#59#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)315803081#715#129#0(6@69"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m315801492#59#0#59#0#0"0(22@42"'CJSONScanner' may not respond to '+alloc'315803081#1188#126#0(6@69"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m315801492#71#0#71#0#26"'*' may not respond to '*'0(0#0#69"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m8614763776#2020"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONDeserializer.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONDeserializer.o1#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o /Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CJSONDeserializer_BlocksExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315804326.548973
-e315804326.704822
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o
-x/Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CJSONDeserializer_BlocksExtensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@105"Compile /Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CJSONDeserializer_BlocksExtensions.m315804326#315804326#0(0"0(0#0#97"/Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CJSONDeserializer_BlocksExtensions.m8626918976#2065"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CJSONDeserializer_BlocksExtensions.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONScanner.o /Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315804326.878777
-e315804327.103307
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONScanner.o
-x/Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONScanner.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONScanner.m315804326#315804327#0(0"0(0#0#67"/Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONScanner.m8630989312#2013"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONScanner.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONScanner.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONScanner.o /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315803081.080732
-e315803081.146353
-r0
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONScanner.o
-x/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:30:
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h:30:25: error: CDataScanner.h: No such file or directory
-oIn file included from /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:30:
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h:33: error: cannot find interface declaration for 'CDataScanner', superclass of 'CJSONScanner'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:32:38: error: NSCharacterSet_Extensions.h: No such file or directory
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:33:36: error: CDataScanner_Extensions.h: No such file or directory
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m: In function '-[CJSONScanner init]':
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:64: error: no super class declared in @interface for 'CJSONScanner'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m: In function '-[CJSONScanner dealloc]':
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:77: error: no super class declared in @interface for 'CJSONScanner'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m: In function '-[CJSONScanner setData:error:]':
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:116: error: no super class declared in @interface for 'CJSONScanner'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:126: error: request for member 'userInfoForScanLocation' in something not a structure or union
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m: In function '-[CJSONScanner scanJSONObject:error:]':
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:144: warning: 'CJSONScanner' may not respond to '-skipWhitespace'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:144: warning: (Messages without a matching method signature
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:144: warning: will be assumed to return 'id' and accept
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:144: warning: '...' as arguments.)
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:148: warning: 'CJSONScanner' may not respond to '-currentCharacter'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:148: warning: initialization makes integer from pointer without a cast
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:152: warning: 'CJSONScanner' may not respond to '-scanUTF8String:intoString:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:158: warning: 'CJSONScanner' may not respond to '-scanUTF8String:intoString:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:164: warning: 'CJSONScanner' may not respond to '-scanUTF8String:intoString:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:199: error: request for member 'userInfoForScanLocation' in something not a structure or union
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m: In function '-[CJSONScanner scanJSONDictionary:error:]':
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:213: warning: 'CJSONScanner' may not respond to '-scanLocation'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:213: warning: initialization makes integer from pointer without a cast
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:215: warning: 'CJSONScanner' may not respond to '-skipWhitespace'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:217: warning: 'CJSONScanner' may not respond to '-scanCharacter:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:224: error: request for member 'userInfoForScanLocation' in something not a structure or union
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:232: warning: 'CJSONScanner' may not respond to '-currentCharacter'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:232: warning: comparison between pointer and integer
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:234: warning: 'CJSONScanner' may not respond to '-skipWhitespace'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:236: warning: 'CJSONScanner' may not respond to '-currentCharacter'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:236: warning: comparison between pointer and integer
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:242: warning: 'CJSONScanner' may not respond to '-setScanLocation:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:248: error: request for member 'userInfoForScanLocation' in something not a structure or union
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:255: warning: 'CJSONScanner' may not respond to '-skipWhitespace'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:257: warning: 'CJSONScanner' may not respond to '-scanCharacter:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:259: warning: 'CJSONScanner' may not respond to '-setScanLocation:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:265: error: request for member 'userInfoForScanLocation' in something not a structure or union
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:275: warning: 'CJSONScanner' may not respond to '-setScanLocation:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:282: error: request for member 'userInfoForScanLocation' in something not a structure or union
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:298: warning: 'CJSONScanner' may not respond to '-skipWhitespace'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:299: warning: 'CJSONScanner' may not respond to '-scanCharacter:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:301: warning: 'CJSONScanner' may not respond to '-currentCharacter'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:301: warning: comparison between pointer and integer
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:303: warning: 'CJSONScanner' may not respond to '-setScanLocation:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:309: error: request for member 'userInfoForScanLocation' in something not a structure or union
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:319: warning: 'CJSONScanner' may not respond to '-skipWhitespace'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:320: warning: 'CJSONScanner' may not respond to '-currentCharacter'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:320: warning: comparison between pointer and integer
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:325: warning: 'CJSONScanner' may not respond to '-scanCharacter:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:327: warning: 'CJSONScanner' may not respond to '-setScanLocation:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:333: error: request for member 'userInfoForScanLocation' in something not a structure or union
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m: In function '-[CJSONScanner scanJSONArray:error:]':
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:350: warning: 'CJSONScanner' may not respond to '-scanLocation'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:350: warning: initialization makes integer from pointer without a cast
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:352: warning: 'CJSONScanner' may not respond to '-skipWhitespace'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:354: warning: 'CJSONScanner' may not respond to '-scanCharacter:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:361: error: request for member 'userInfoForScanLocation' in something not a structure or union
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:369: warning: 'CJSONScanner' may not respond to '-skipWhitespace'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:370: warning: 'CJSONScanner' may not respond to '-currentCharacter'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:370: warning: comparison between pointer and integer
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:375: warning: 'CJSONScanner' may not respond to '-setScanLocation:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:381: error: request for member 'userInfoForScanLocation' in something not a structure or union
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:397: error: request for member 'userInfoForScanLocation' in something not a structure or union
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:409: warning: 'CJSONScanner' may not respond to '-skipWhitespace'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:410: warning: 'CJSONScanner' may not respond to '-scanCharacter:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:412: warning: 'CJSONScanner' may not respond to '-skipWhitespace'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:413: warning: 'CJSONScanner' may not respond to '-currentCharacter'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:413: warning: comparison between pointer and integer
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:415: warning: 'CJSONScanner' may not respond to '-setScanLocation:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:421: error: request for member 'userInfoForScanLocation' in something not a structure or union
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:430: warning: 'CJSONScanner' may not respond to '-skipWhitespace'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:433: warning: 'CJSONScanner' may not respond to '-skipWhitespace'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:435: warning: 'CJSONScanner' may not respond to '-scanCharacter:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:437: warning: 'CJSONScanner' may not respond to '-setScanLocation:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:443: error: request for member 'userInfoForScanLocation' in something not a structure or union
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m: In function '-[CJSONScanner scanJSONStringConstant:error:]':
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:460: warning: 'CJSONScanner' may not respond to '-scanLocation'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:460: warning: initialization makes integer from pointer without a cast
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:462: warning: 'CJSONScanner' may not respond to '-skipWhitespace'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:466: warning: 'CJSONScanner' may not respond to '-scanCharacter:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:468: warning: 'CJSONScanner' may not respond to '-setScanLocation:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:474: error: request for member 'userInfoForScanLocation' in something not a structure or union
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:481: warning: 'CJSONScanner' may not respond to '-scanCharacter:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:488: warning: 'CJSONScanner' may not respond to '-scanCharacter:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:488: warning: comparison between pointer and integer
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:490: warning: 'CJSONScanner' may not respond to '-scanCharacter'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:490: warning: initialization makes integer from pointer without a cast
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:519: warning: 'CJSONScanner' may not respond to '-scanCharacter'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:519: warning: passing argument 1 of 'HexToInt' makes integer from pointer without a cast
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:522: warning: 'CJSONScanner' may not respond to '-setScanLocation:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:528: error: request for member 'userInfoForScanLocation' in something not a structure or union
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:542: warning: 'CJSONScanner' may not respond to '-setScanLocation:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:548: error: request for member 'userInfoForScanLocation' in something not a structure or union
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:566: error: request for member 'userInfoForScanLocation' in something not a structure or union
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m: In function '-[CJSONScanner scanJSONNumberConstant:error:]':
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:587: warning: 'CJSONScanner' may not respond to '-skipWhitespace'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:589: warning: 'CJSONScanner' may not respond to '-scanNumber:'
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:589: warning: comparison between pointer and integer
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:602: error: request for member 'userInfoForScanLocation' in something not a structure or union
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m: In function '-[CJSONScanner scanNotQuoteCharactersIntoString:]':
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:624: error: 'current' undeclared (first use in this function)
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:624: error: (Each undeclared identifier is reported only once
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:624: error: for each function it appears in.)
-o/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:624: error: 'end' undeclared (first use in this function)
-lSLF07#2@72"Compile /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315803081#315803081#0(14426"In file included from /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:30:/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h:30:25: error: CDataScanner.h: No such file or directoryIn file included from /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:30:/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h:33: error: cannot find interface declaration for 'CDataScanner', superclass of 'CJSONScanner'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:32:38: error: NSCharacterSet_Extensions.h: No such file or directory/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:33:36: error: CDataScanner_Extensions.h: No such file or directory/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m: In function '-[CJSONScanner init]':/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:64: error: no super class declared in @interface for 'CJSONScanner'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m: In function '-[CJSONScanner dealloc]':/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:77: error: no super class declared in @interface for 'CJSONScanner'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m: In function '-[CJSONScanner setData:error:]':/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:116: error: no super class declared in @interface for 'CJSONScanner'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:126: error: request for member 'userInfoForScanLocation' in something not a structure or union/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m: In function '-[CJSONScanner scanJSONObject:error:]':/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:144: warning: 'CJSONScanner' may not respond to '-skipWhitespace'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:144: warning: (Messages without a matching method signature/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:144: warning: will be assumed to return 'id' and accept/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:144: warning: '...' as arguments.)/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:148: warning: 'CJSONScanner' may not respond to '-currentCharacter'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:148: warning: initialization makes integer from pointer without a cast/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:152: warning: 'CJSONScanner' may not respond to '-scanUTF8String:intoString:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:158: warning: 'CJSONScanner' may not respond to '-scanUTF8String:intoString:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:164: warning: 'CJSONScanner' may not respond to '-scanUTF8String:intoString:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:199: error: request for member 'userInfoForScanLocation' in something not a structure or union/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m: In function '-[CJSONScanner scanJSONDictionary:error:]':/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:213: warning: 'CJSONScanner' may not respond to '-scanLocation'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:213: warning: initialization makes integer from pointer without a cast/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:215: warning: 'CJSONScanner' may not respond to '-skipWhitespace'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:217: warning: 'CJSONScanner' may not respond to '-scanCharacter:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:224: error: request for member 'userInfoForScanLocation' in something not a structure or union/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:232: warning: 'CJSONScanner' may not respond to '-currentCharacter'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:232: warning: comparison between pointer and integer/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:234: warning: 'CJSONScanner' may not respond to '-skipWhitespace'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:236: warning: 'CJSONScanner' may not respond to '-currentCharacter'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:236: warning: comparison between pointer and integer/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:242: warning: 'CJSONScanner' may not respond to '-setScanLocation:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:248: error: request for member 'userInfoForScanLocation' in something not a structure or union/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:255: warning: 'CJSONScanner' may not respond to '-skipWhitespace'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:257: warning: 'CJSONScanner' may not respond to '-scanCharacter:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:259: warning: 'CJSONScanner' may not respond to '-setScanLocation:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:265: error: request for member 'userInfoForScanLocation' in something not a structure or union/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:275: warning: 'CJSONScanner' may not respond to '-setScanLocation:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:282: error: request for member 'userInfoForScanLocation' in something not a structure or union/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:298: warning: 'CJSONScanner' may not respond to '-skipWhitespace'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:299: warning: 'CJSONScanner' may not respond to '-scanCharacter:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:301: warning: 'CJSONScanner' may not respond to '-currentCharacter'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:301: warning: comparison between pointer and integer/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:303: warning: 'CJSONScanner' may not respond to '-setScanLocation:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:309: error: request for member 'userInfoForScanLocation' in something not a structure or union/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:319: warning: 'CJSONScanner' may not respond to '-skipWhitespace'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:320: warning: 'CJSONScanner' may not respond to '-currentCharacter'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:320: warning: comparison between pointer and integer/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:325: warning: 'CJSONScanner' may not respond to '-scanCharacter:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:327: warning: 'CJSONScanner' may not respond to '-setScanLocation:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:333: error: request for member 'userInfoForScanLocation' in something not a structure or union/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m: In function '-[CJSONScanner scanJSONArray:error:]':/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:350: warning: 'CJSONScanner' may not respond to '-scanLocation'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:350: warning: initialization makes integer from pointer without a cast/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:352: warning: 'CJSONScanner' may not respond to '-skipWhitespace'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:354: warning: 'CJSONScanner' may not respond to '-scanCharacter:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:361: error: request for member 'userInfoForScanLocation' in something not a structure or union/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:369: warning: 'CJSONScanner' may not respond to '-skipWhitespace'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:370: warning: 'CJSONScanner' may not respond to '-currentCharacter'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:370: warning: comparison between pointer and integer/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:375: warning: 'CJSONScanner' may not respond to '-setScanLocation:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:381: error: request for member 'userInfoForScanLocation' in something not a structure or union/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:397: error: request for member 'userInfoForScanLocation' in something not a structure or union/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:409: warning: 'CJSONScanner' may not respond to '-skipWhitespace'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:410: warning: 'CJSONScanner' may not respond to '-scanCharacter:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:412: warning: 'CJSONScanner' may not respond to '-skipWhitespace'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:413: warning: 'CJSONScanner' may not respond to '-currentCharacter'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:413: warning: comparison between pointer and integer/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:415: warning: 'CJSONScanner' may not respond to '-setScanLocation:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:421: error: request for member 'userInfoForScanLocation' in something not a structure or union/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:430: warning: 'CJSONScanner' may not respond to '-skipWhitespace'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:433: warning: 'CJSONScanner' may not respond to '-skipWhitespace'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:435: warning: 'CJSONScanner' may not respond to '-scanCharacter:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:437: warning: 'CJSONScanner' may not respond to '-setScanLocation:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:443: error: request for member 'userInfoForScanLocation' in something not a structure or union/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m: In function '-[CJSONScanner scanJSONStringConstant:error:]':/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:460: warning: 'CJSONScanner' may not respond to '-scanLocation'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:460: warning: initialization makes integer from pointer without a cast/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:462: warning: 'CJSONScanner' may not respond to '-skipWhitespace'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:466: warning: 'CJSONScanner' may not respond to '-scanCharacter:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:468: warning: 'CJSONScanner' may not respond to '-setScanLocation:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:474: error: request for member 'userInfoForScanLocation' in something not a structure or union/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:481: warning: 'CJSONScanner' may not respond to '-scanCharacter:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:488: warning: 'CJSONScanner' may not respond to '-scanCharacter:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:488: warning: comparison between pointer and integer/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:490: warning: 'CJSONScanner' may not respond to '-scanCharacter'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:490: warning: initialization makes integer from pointer without a cast/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:519: warning: 'CJSONScanner' may not respond to '-scanCharacter'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:519: warning: passing argument 1 of 'HexToInt' makes integer from pointer without a cast/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:522: warning: 'CJSONScanner' may not respond to '-setScanLocation:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:528: error: request for member 'userInfoForScanLocation' in something not a structure or union/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:542: warning: 'CJSONScanner' may not respond to '-setScanLocation:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:548: error: request for member 'userInfoForScanLocation' in something not a structure or union/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:566: error: request for member 'userInfoForScanLocation' in something not a structure or union/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m: In function '-[CJSONScanner scanJSONNumberConstant:error:]':/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:587: warning: 'CJSONScanner' may not respond to '-skipWhitespace'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:589: warning: 'CJSONScanner' may not respond to '-scanNumber:'/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:589: warning: comparison between pointer and integer/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:602: error: request for member 'userInfoForScanLocation' in something not a structure or union/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m: In function '-[CJSONScanner scanNotQuoteCharactersIntoString:]':/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:624: error: 'current' undeclared (first use in this function)/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:624: error: (Each undeclared identifier is reported only once/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:624: error: for each function it appears in.)/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m:624: error: 'end' undeclared (first use in this function)93(4@41"CDataScanner.h: No such file or directory315803081#91#121#2(7@86"In file included from /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315803081#18446744073709551615#0#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#30#0#30#0#0"0(13@109"CDataScanner.h: No such file or directory in /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h315803081#18446744073709551615#0#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h315801492#30#0#30#0#0"0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h315801492#30#0#30#0#28"*: No such file or directory0(4@82"Cannot find interface declaration for 'CDataScanner', superclass of 'CJSONScanner'315803081#303#159#2(7@86"In file included from /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315803081#18446744073709551615#0#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#30#0#30#0#0"0(13@150"Cannot find interface declaration for 'CDataScanner', superclass of 'CJSONScanner' in /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h315803081#18446744073709551615#0#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h315801492#33#0#33#0#0"0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.h315801492#33#0#33#0#60"cannot find interface declaration for '*', superclass of '*'0(4@54"NSCharacterSet_Extensions.h: No such file or directory315803081#462#134#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#32#0#32#0#28"*: No such file or directory0(4@52"CDataScanner_Extensions.h: No such file or directory315803081#596#132#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#33#0#33#0#28"*: No such file or directory0(4@56"No super class declared in @interface for 'CJSONScanner'315803081#830#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#64#0#64#0#0"0(4@56"No super class declared in @interface for 'CJSONScanner'315803081#1068#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#77#0#77#0#0"0(4@56"No super class declared in @interface for 'CJSONScanner'315803081#1313#134#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#116#0#116#0#0"0(4@82"Request for member 'userInfoForScanLocation' in something not a structure or union315803081#1447#160#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#126#0#126#0#0"0(22@51"'CJSONScanner' may not respond to '-skipWhitespace'315803081#1726#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#144#0#144#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)315803081#1857#125#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#144#0#144#0#0"0(22@53"'CJSONScanner' may not respond to '-currentCharacter'315803081#2203#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#148#0#148#0#26"'*' may not respond to '*'0(22@56"Initialization makes integer from pointer without a cast315803081#2336#136#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#148#0#148#0#0"0(22@63"'CJSONScanner' may not respond to '-scanUTF8String:intoString:'315803081#2472#143#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#152#0#152#0#26"'*' may not respond to '*'0(22@63"'CJSONScanner' may not respond to '-scanUTF8String:intoString:'315803081#2615#143#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#158#0#158#0#26"'*' may not respond to '*'0(22@63"'CJSONScanner' may not respond to '-scanUTF8String:intoString:'315803081#2758#143#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#164#0#164#0#26"'*' may not respond to '*'0(4@82"Request for member 'userInfoForScanLocation' in something not a structure or union315803081#2901#160#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#199#0#199#0#0"0(22@49"'CJSONScanner' may not respond to '-scanLocation'315803081#3184#129#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#213#0#213#0#26"'*' may not respond to '*'0(22@56"Initialization makes integer from pointer without a cast315803081#3313#136#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#213#0#213#0#0"0(22@51"'CJSONScanner' may not respond to '-skipWhitespace'315803081#3449#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#215#0#215#0#26"'*' may not respond to '*'0(22@51"'CJSONScanner' may not respond to '-scanCharacter:'315803081#3580#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#217#0#217#0#26"'*' may not respond to '*'0(4@82"Request for member 'userInfoForScanLocation' in something not a structure or union315803081#3711#160#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#224#0#224#0#0"0(22@53"'CJSONScanner' may not respond to '-currentCharacter'315803081#3871#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#232#0#232#0#26"'*' may not respond to '*'0(22@38"Comparison between pointer and integer315803081#4004#118#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#232#0#232#0#0"0(22@51"'CJSONScanner' may not respond to '-skipWhitespace'315803081#4122#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#234#0#234#0#26"'*' may not respond to '*'0(22@53"'CJSONScanner' may not respond to '-currentCharacter'315803081#4253#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#236#0#236#0#26"'*' may not respond to '*'0(22@38"Comparison between pointer and integer315803081#4386#118#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#236#0#236#0#0"0(22@53"'CJSONScanner' may not respond to '-setScanLocation:'315803081#4504#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#242#0#242#0#26"'*' may not respond to '*'0(4@82"Request for member 'userInfoForScanLocation' in something not a structure or union315803081#4637#160#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#248#0#248#0#0"0(22@51"'CJSONScanner' may not respond to '-skipWhitespace'315803081#4797#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#255#0#255#0#26"'*' may not respond to '*'0(22@51"'CJSONScanner' may not respond to '-scanCharacter:'315803081#4928#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#257#0#257#0#26"'*' may not respond to '*'0(22@53"'CJSONScanner' may not respond to '-setScanLocation:'315803081#5059#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#259#0#259#0#26"'*' may not respond to '*'0(4@82"Request for member 'userInfoForScanLocation' in something not a structure or union315803081#5192#160#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#265#0#265#0#0"0(22@53"'CJSONScanner' may not respond to '-setScanLocation:'315803081#5352#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#275#0#275#0#26"'*' may not respond to '*'0(4@82"Request for member 'userInfoForScanLocation' in something not a structure or union315803081#5485#160#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#282#0#282#0#0"0(22@51"'CJSONScanner' may not respond to '-skipWhitespace'315803081#5645#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#298#0#298#0#26"'*' may not respond to '*'0(22@51"'CJSONScanner' may not respond to '-scanCharacter:'315803081#5776#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#299#0#299#0#26"'*' may not respond to '*'0(22@53"'CJSONScanner' may not respond to '-currentCharacter'315803081#5907#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#301#0#301#0#26"'*' may not respond to '*'0(22@38"Comparison between pointer and integer315803081#6040#118#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#301#0#301#0#0"0(22@53"'CJSONScanner' may not respond to '-setScanLocation:'315803081#6158#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#303#0#303#0#26"'*' may not respond to '*'0(4@82"Request for member 'userInfoForScanLocation' in something not a structure or union315803081#6291#160#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#309#0#309#0#0"0(22@51"'CJSONScanner' may not respond to '-skipWhitespace'315803081#6451#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#319#0#319#0#26"'*' may not respond to '*'0(22@53"'CJSONScanner' may not respond to '-currentCharacter'315803081#6582#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#320#0#320#0#26"'*' may not respond to '*'0(22@38"Comparison between pointer and integer315803081#6715#118#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#320#0#320#0#0"0(22@51"'CJSONScanner' may not respond to '-scanCharacter:'315803081#6833#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#325#0#325#0#26"'*' may not respond to '*'0(22@53"'CJSONScanner' may not respond to '-setScanLocation:'315803081#6964#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#327#0#327#0#26"'*' may not respond to '*'0(4@82"Request for member 'userInfoForScanLocation' in something not a structure or union315803081#7097#160#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#333#0#333#0#0"0(22@49"'CJSONScanner' may not respond to '-scanLocation'315803081#7375#129#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#350#0#350#0#26"'*' may not respond to '*'0(22@56"Initialization makes integer from pointer without a cast315803081#7504#136#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#350#0#350#0#0"0(22@51"'CJSONScanner' may not respond to '-skipWhitespace'315803081#7640#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#352#0#352#0#26"'*' may not respond to '*'0(22@51"'CJSONScanner' may not respond to '-scanCharacter:'315803081#7771#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#354#0#354#0#26"'*' may not respond to '*'0(4@82"Request for member 'userInfoForScanLocation' in something not a structure or union315803081#7902#160#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#361#0#361#0#0"0(22@51"'CJSONScanner' may not respond to '-skipWhitespace'315803081#8062#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#369#0#369#0#26"'*' may not respond to '*'0(22@53"'CJSONScanner' may not respond to '-currentCharacter'315803081#8193#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#370#0#370#0#26"'*' may not respond to '*'0(22@38"Comparison between pointer and integer315803081#8326#118#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#370#0#370#0#0"0(22@53"'CJSONScanner' may not respond to '-setScanLocation:'315803081#8444#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#375#0#375#0#26"'*' may not respond to '*'0(4@82"Request for member 'userInfoForScanLocation' in something not a structure or union315803081#8577#160#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#381#0#381#0#0"0(4@82"Request for member 'userInfoForScanLocation' in something not a structure or union315803081#8737#160#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#397#0#397#0#0"0(22@51"'CJSONScanner' may not respond to '-skipWhitespace'315803081#8897#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#409#0#409#0#26"'*' may not respond to '*'0(22@51"'CJSONScanner' may not respond to '-scanCharacter:'315803081#9028#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#410#0#410#0#26"'*' may not respond to '*'0(22@51"'CJSONScanner' may not respond to '-skipWhitespace'315803081#9159#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#412#0#412#0#26"'*' may not respond to '*'0(22@53"'CJSONScanner' may not respond to '-currentCharacter'315803081#9290#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#413#0#413#0#26"'*' may not respond to '*'0(22@38"Comparison between pointer and integer315803081#9423#118#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#413#0#413#0#0"0(22@53"'CJSONScanner' may not respond to '-setScanLocation:'315803081#9541#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#415#0#415#0#26"'*' may not respond to '*'0(4@82"Request for member 'userInfoForScanLocation' in something not a structure or union315803081#9674#160#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#421#0#421#0#0"0(22@51"'CJSONScanner' may not respond to '-skipWhitespace'315803081#9834#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#430#0#430#0#26"'*' may not respond to '*'0(22@51"'CJSONScanner' may not respond to '-skipWhitespace'315803081#9965#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#433#0#433#0#26"'*' may not respond to '*'0(22@51"'CJSONScanner' may not respond to '-scanCharacter:'315803081#10096#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#435#0#435#0#26"'*' may not respond to '*'0(22@53"'CJSONScanner' may not respond to '-setScanLocation:'315803081#10227#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#437#0#437#0#26"'*' may not respond to '*'0(4@82"Request for member 'userInfoForScanLocation' in something not a structure or union315803081#10360#160#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#443#0#443#0#0"0(22@49"'CJSONScanner' may not respond to '-scanLocation'315803081#10647#129#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#460#0#460#0#26"'*' may not respond to '*'0(22@56"Initialization makes integer from pointer without a cast315803081#10776#136#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#460#0#460#0#0"0(22@51"'CJSONScanner' may not respond to '-skipWhitespace'315803081#10912#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#462#0#462#0#26"'*' may not respond to '*'0(22@51"'CJSONScanner' may not respond to '-scanCharacter:'315803081#11043#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#466#0#466#0#26"'*' may not respond to '*'0(22@53"'CJSONScanner' may not respond to '-setScanLocation:'315803081#11174#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#468#0#468#0#26"'*' may not respond to '*'0(4@82"Request for member 'userInfoForScanLocation' in something not a structure or union315803081#11307#160#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#474#0#474#0#0"0(22@51"'CJSONScanner' may not respond to '-scanCharacter:'315803081#11467#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#481#0#481#0#26"'*' may not respond to '*'0(22@51"'CJSONScanner' may not respond to '-scanCharacter:'315803081#11598#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#488#0#488#0#26"'*' may not respond to '*'0(22@38"Comparison between pointer and integer315803081#11729#118#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#488#0#488#0#0"0(22@50"'CJSONScanner' may not respond to '-scanCharacter'315803081#11847#130#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#490#0#490#0#26"'*' may not respond to '*'0(22@56"Initialization makes integer from pointer without a cast315803081#11977#136#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#490#0#490#0#0"0(22@50"'CJSONScanner' may not respond to '-scanCharacter'315803081#12113#130#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#519#0#519#0#26"'*' may not respond to '*'0(22@74"Passing argument 1 of 'HexToInt' makes integer from pointer without a cast315803081#12243#154#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#519#0#519#0#67"passing argument * of '*' makes integer from pointer without a cast0(22@53"'CJSONScanner' may not respond to '-setScanLocation:'315803081#12397#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#522#0#522#0#26"'*' may not respond to '*'0(4@82"Request for member 'userInfoForScanLocation' in something not a structure or union315803081#12530#160#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#528#0#528#0#0"0(22@53"'CJSONScanner' may not respond to '-setScanLocation:'315803081#12690#133#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#542#0#542#0#26"'*' may not respond to '*'0(4@82"Request for member 'userInfoForScanLocation' in something not a structure or union315803081#12823#160#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#548#0#548#0#0"0(4@82"Request for member 'userInfoForScanLocation' in something not a structure or union315803081#12983#160#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#566#0#566#0#0"0(22@51"'CJSONScanner' may not respond to '-skipWhitespace'315803081#13270#131#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#587#0#587#0#26"'*' may not respond to '*'0(22@48"'CJSONScanner' may not respond to '-scanNumber:'315803081#13401#128#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#589#0#589#0#26"'*' may not respond to '*'0(22@38"Comparison between pointer and integer315803081#13529#118#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#589#0#589#0#0"0(4@82"Request for member 'userInfoForScanLocation' in something not a structure or union315803081#13647#160#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#602#0#602#0#0"0(4@49"'current' undeclared (first use in this function)315803081#13938#127#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#624#0#624#0#43"'*' undeclared (first use in this function)0(4@45"'end' undeclared (first use in this function)315803081#14303#123#0(6@64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m315801492#624#0#624#0#43"'*' undeclared (first use in this function)0(0#0#64"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m8604168256#2010"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONScanner.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONScanner.o1#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONSerializedData.o /Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CJSONSerializedData.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315804326.704940
-e315804326.878665
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONSerializedData.o
-x/Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CJSONSerializedData.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CJSONSerializedData.m315804326#315804326#0(0"0(0#0#82"/Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CJSONSerializedData.m8625753760#2035"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/Source/Experimental/CJSONSerializedData.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONSerializedData.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONSerializer.o /Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315804326.881542
-e315804327.102886
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONSerializer.o
-x/Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONSerializer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONSerializer.m315804326#315804327#0(0"0(0#0#70"/Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONSerializer.m8630553216#2019"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/Source/JSON/CJSONSerializer.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONSerializer.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONSerializer.o /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315803070.739260
-e315803070.846948
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONSerializer.o
-x/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONSerializer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONSerializer.m315803070#315803070#0(0"0(0#0#67"/Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONSerializer.m8631227936#2016"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/lib/JSON/CJSONSerializer.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/CJSONSerializer.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatAppDelegate.o /Users/tomlongson/code/zimt/samples/Chat/Classes/ChatAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315804360.457523
-e315804360.549972
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatAppDelegate.o
-x/Users/tomlongson/code/zimt/samples/Chat/Classes/ChatAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/tomlongson/code/zimt/samples/Chat/Classes/ChatAppDelegate.m315804360#315804360#0(0"0(0#0#66"/Users/tomlongson/code/zimt/samples/Chat/Classes/ChatAppDelegate.m8633555072#2015"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/Classes/ChatAppDelegate.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatAppDelegate.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatViewController.o /Users/tomlongson/code/zimt/samples/Chat/Classes/ChatViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315881485.004866
-e315881485.169281
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatViewController.o
-x/Users/tomlongson/code/zimt/samples/Chat/Classes/ChatViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/tomlongson/code/zimt/samples/Chat/Classes/ChatViewController.m315881485#315881485#0(0"0(0#0#69"/Users/tomlongson/code/zimt/samples/Chat/Classes/ChatViewController.m8616696576#2021"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/Classes/ChatViewController.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/ChatViewController.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/NSCharacterSet_Extensions.o /Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSCharacterSet_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315804326.727709
-e315804326.840755
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/NSCharacterSet_Extensions.o
-x/Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSCharacterSet_Extensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSCharacterSet_Extensions.m315804326#315804326#0(0"0(0#0#86"/Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSCharacterSet_Extensions.m8624929568#2045"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSCharacterSet_Extensions.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/NSCharacterSet_Extensions.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315804326.747632
-e315804326.881422
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
-x/Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSDictionary_JSONExtensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSDictionary_JSONExtensions.m315804326#315804326#0(0"0(0#0#88"/Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSDictionary_JSONExtensions.m8623306816#2049"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSDictionary_JSONExtensions.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/NSDictionary_JSONExtensions.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/NSScanner_Extensions.o /Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315804326.841084
-e315804327.103159
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/NSScanner_Extensions.o
-x/Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSScanner_Extensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@89"Compile /Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSScanner_Extensions.m315804326#315804327#0(0"0(0#0#81"/Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSScanner_Extensions.m8631662912#2035"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/Source/Extensions/NSScanner_Extensions.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/NSScanner_Extensions.o0#
-
-CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.o /Users/tomlongson/code/zimt/samples/Chat/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s315771231.384931
-e315771231.916316
-r1
-xCompileC
-xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.o
-x/Users/tomlongson/code/zimt/samples/Chat/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/tomlongson/code/zimt/samples/Chat/main.m315771231#315771231#0(0"0(0#0#47"/Users/tomlongson/code/zimt/samples/Chat/main.m8605327680#1985"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -include /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch -c /Users/tomlongson/code/zimt/samples/Chat/main.m -o /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/tomlongson/code/zimt/samples/Chat/ChatViewController.xib
-s315771219.671579
-e315771222.431215
-r1
-xCompileXIB
-x/Users/tomlongson/code/zimt/samples/Chat/ChatViewController.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@33"CompileXIB ChatViewController.xib315771219#315771222#0(168"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#63"/Users/tomlongson/code/zimt/samples/Chat/ChatViewController.xib8599328064#589"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/ChatViewController.nib /Users/tomlongson/code/zimt/samples/Chat/ChatViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/tomlongson/code/zimt/samples/Chat/MainWindow.xib
-s315771219.670937
-e315771221.244963
-r1
-xCompileXIB
-x/Users/tomlongson/code/zimt/samples/Chat/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib315771219#315771221#0(0"0(0#0#55"/Users/tomlongson/code/zimt/samples/Chat/MainWindow.xib8598956928#573"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/MainWindow.nib /Users/tomlongson/code/zimt/samples/Chat/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CGenerateDSYMFile /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app.dSYM /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat
-s315881485.227281
-e315881485.265313
-r1
-xGenerateDSYMFile
-x/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app.dSYM
-x/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat
-lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/Chat.app.dSYM build/Debug-iphonesimulator/Chat.app/Chat315881485#315881485#0(0"0(0#0#82"/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat8617070688#380"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat -o /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app.dSYM0#
-
-CLd /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat normal i386
-s315881485.169392
-e315881485.227136
-r1
-xLd
-x/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat
-xnormal
-xi386
-lSLF07#2@87"Link /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat315881485#315881485#0(0"0(0#0#0"8619014688#986"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -filelist /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/Chat.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 /Users/tomlongson/code/zimt/src/build/Debug-iphonesimulator/libZimt.a -framework Foundation -framework UIKit -framework CoreGraphics -framework CFNetwork -o /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Chat0#
-
-CProcessInfoPlistFile /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Info.plist Chat-Info.plist
-s315771219.667410
-e315771219.670838
-r1
-xProcessInfoPlistFile
-x/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Info.plist
-xChat-Info.plist
-lSLF07#2@23"Process Chat-Info.plist315771219#315771219#0(0"0(0#0#56"/Users/tomlongson/code/zimt/samples/Chat/Chat-Info.plist8601698816#476"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Chat-Info.plist -genpkginfo /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app/Info.plist0#
-
-CProcessPCH /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch.gch Chat_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s315771222.431356
-e315771231.384794
-r1
-xProcessPCH
-x/var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch.gch
-xChat_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Chat_Prefix.pch315771222#315771231#0(0"0(0#0#56"/Users/tomlongson/code/zimt/samples/Chat/Chat_Prefix.pch8602383136#1878"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -F/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator -iquote../../src -iquote../../src/Vendor -iquote../../src/Zimt -iquote../../src/Vendor/AsyncSocket -I/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/include -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/tomlongson/code/zimt/samples/Chat/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -c /Users/tomlongson/code/zimt/samples/Chat/Chat_Prefix.pch -o /var/folders/bo/boE-6T1QFXy4TzvXRBXfYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Chat_Prefix-gvnwwnvjqewshacerpyowmjroezf/Chat_Prefix.pch.gch0#
-
-CTouch /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app
-s315881485.265406
-e315881485.268292
-r1
-xTouch
-x/Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app
-lSLF07#2@83"Touch /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app315881485#315881485#0(0"0(0#0#0"8619146144#279"    cd /Users/tomlongson/code/zimt/samples/Chat    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/tomlongson/code/zimt/samples/Chat/build/Debug-iphonesimulator/Chat.app0#
-

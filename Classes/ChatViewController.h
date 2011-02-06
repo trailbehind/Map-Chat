@@ -5,11 +5,12 @@
 
 #import "ChatController.h"
 
-@interface ChatViewController : UIViewController <UITextFieldDelegate, ChatControllerDelegate> {	
+@interface ChatViewController : UIViewController <UITextFieldDelegate, ChatControllerDelegate, UIWebViewDelegate> {	
 
 	UITextField* textField;
 	UIView *textFieldBackground;
-	UITextView* textView;
+	UIWebView *chatWebView;
+	NSMutableArray *chatArray;
 	
 }
 

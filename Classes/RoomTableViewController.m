@@ -27,6 +27,7 @@
 }
 
 
+// delegate function for ChatController
 - (void)updateList:(NSArray *)roomList {
   [listOfRooms release];
   listOfRooms = [[NSMutableArray alloc] init];
