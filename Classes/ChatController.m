@@ -19,7 +19,8 @@
 
 - (void)onChatMessage:(NSDictionary *)msgObj {
   // print a message e.g. "user: msg"
-  [self.delegate write:[msgObj objectForKey:@"message"] user:[msgObj objectForKey:@"username"]];	
+	if ([self.delegate respondsToSelector:@selector(write:user:)])
+    [self.delegate write:[msgObj objectForKey:@"message"] user:[msgObj objectForKey:@"username"]];	
 }
 
 
@@ -27,21 +28,34 @@
   // print an announcement e.g. "* msg *"
   NSString *formattedMsg;
   formattedMsg = [NSString stringWithFormat: @"* %@ *", [msgObj objectForKey:@"announcement"]];
-  [self.delegate write:formattedMsg user:nil];	
+	if ([self.delegate respondsToSelector:@selector(write:user:)])
+    [self.delegate write:formattedMsg user:nil];	
 }
+
 
 - (void)onRoomList:(NSDictionary *)msgObj {
-  NSLog(@"At onRoomList");
-  [self.roomTableViewControllerDelegate updateList:(NSArray*)[msgObj objectForKey:@"rooms"]];
-  
+  [self.roomTableViewControllerDelegate updateList:(NSDictionary*)[msgObj objectForKey:@"rooms"]];
 }
 
+
 - (void)onMessage:(NSDictionary *) msgObj {
-  // strategy for different types of objects
+	BOOL isCallback = ([msgObj objectForKey:@"callback"] != nil);
+	if (isCallback) {
+		if ([[msgObj objectForKey:@"name"]isEqualToString:@"nick"]) {
+			[self.delegate didSaveName:[[msgObj objectForKey:@"success"]boolValue]];
+		} else if ([[msgObj objectForKey:@"name"]isEqualToString:@"email"]) {
+			[self.delegate didSaveEmail:[[msgObj objectForKey:@"success"]boolValue]];
+		} else if ([[msgObj objectForKey:@"name"]isEqualToString:@"login"]) {
+		}
+		return;
+	}
+	
+	// strategy for different types of objects
   BOOL isAnnouncement = ([msgObj objectForKey:@"announcement"] != nil);
   BOOL isChatMessage = ([msgObj objectForKey:@"message"] != nil);
   BOOL isRoomList = ([msgObj objectForKey:@"rooms"] != nil);
-  if (isAnnouncement) {
+	
+	if (isAnnouncement) {
     [self onAnnouncement:msgObj];
   } else if (isChatMessage) {
     [self onChatMessage:msgObj];
@@ -53,10 +67,6 @@
 
 
 - (void)socketIoClient:(SocketIoClient *)client didReceiveMessage:(NSString *)msg isJSON:(BOOL)isJSON {
-  NSLog(@"Received: %@", msg);
-	
-  // TODO: either assume it's always JSON or get the server to send the "correct" frame.
-  // decode JSON
   NSError *error = nil;
   NSDictionary *jsonDict = [[CJSONDeserializer deserializer] deserializeAsDictionary:[msg dataUsingEncoding:NSUTF32BigEndianStringEncoding] error:&error];
 	
@@ -74,16 +84,6 @@
       [self onMessage:jsonDict];
     }
   }
-}
-
-
-- (void)socketIoClientDidConnect:(SocketIoClient *)client {
-  NSLog(@"Connected.");
-}
-
-- (void)socketIoClientDidDisconnect:(SocketIoClient *)client {
-  NSLog(@"Disconnected.");
-  [self.delegate write:@"Disconnected." user:nil];
 }
 
 
@@ -115,11 +115,41 @@
     [client send:jsonDataStr isJSON:NO];
 		return YES;
   } else {
-    [self.delegate write:@"Not connected." user:nil];
+		if ([self.delegate respondsToSelector:@selector(write:user:)])
+      [self.delegate write:@"Not connected." user:nil];
     [self connect];
   }
 	return NO;
-  
+}
+
+	 
+- (void) sendUDID {
+  NSDictionary *dictionary = [NSDictionary dictionaryWithObject:
+															[[UIDevice currentDevice] uniqueIdentifier] forKey:@"login"];
+	[self sendJson:dictionary];
+}
+
+
+- (void)socketIoClientDidConnect:(SocketIoClient *)client {
+	[self sendUDID];
+}
+
+
+- (void)socketIoClientDidDisconnect:(SocketIoClient *)client {
+	if ([self.delegate respondsToSelector:@selector(write:user:)])
+		[self.delegate write:@"Disconnected." user:nil];
+}
+
+
+- (void) saveEmail:(NSString*)email {
+  NSDictionary *dictionary = [NSDictionary dictionaryWithObject:email forKey:@"email"];
+  [self sendJson:dictionary];
+}
+
+
+- (void) saveNickname:(NSString*)nickname {
+  NSDictionary *dictionary = [NSDictionary dictionaryWithObject:nickname forKey:@"nick"];
+  [self sendJson:dictionary];
 }
 
 

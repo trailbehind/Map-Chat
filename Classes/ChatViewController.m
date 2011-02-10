@@ -45,7 +45,6 @@
 
 - (void) webViewDidFinishLoad:(UIWebView *)webView{
 	int height = [[chatWebView stringByEvaluatingJavaScriptFromString:@"document.body.offsetHeight;"] intValue];
-	NSLog(@"The height is %d", height);
 	NSString *javascript = [NSString stringWithFormat:@"window.scrollTo(0, %d);", height]; 
 	[chatWebView stringByEvaluatingJavaScriptFromString:javascript];	
 }

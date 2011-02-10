@@ -9,10 +9,19 @@
 #import <Foundation/Foundation.h>
 #import "SocketIoClient.h"
 
-@protocol ChatControllerDelegate
+@protocol ChatControllerDelegate <NSObject>
 
+@optional
 - (void) write:(NSString*)text user:(NSString*)user;
+
+@optional
 - (void) updateList:(NSDictionary*)roomList;
+
+@optional
+- (void) didSaveName:(BOOL)didSucceed;
+
+@optional
+- (void) didSaveEmail:(BOOL)didSucceed;
 
 @end
 
@@ -30,7 +39,8 @@
 
 - (void) connect;
 - (BOOL) sendMessage:(NSString*)text;
-// - (void)reconnect:(id)sender;
+- (void) saveEmail:(NSString*)email;
+- (void) saveNickname:(NSString*)nickname;
 
 
 @end
