@@ -18,9 +18,9 @@
 
 - (id) init {
   self = [super init];
-	return self;
-	
+	return self;	
 }
+
 
 // write raw text to the textView
 - (void)write:(NSString*)text user:(NSString*)user {
@@ -44,7 +44,7 @@
 - (BOOL)textFieldShouldReturn:(UITextField *)aTextField {
   // only send if we're connected
   ChatAppDelegate *appDelegate = (ChatAppDelegate *)[[UIApplication sharedApplication] delegate];
-	BOOL didSendMessage = [appDelegate.chatController sendMessage:textField.text];
+	BOOL didSendMessage = [appDelegate.chatController sendMessage:textField.text fromRoom:self.title];
 	
   // clear out the input box
   [textField setText:@""];
@@ -53,15 +53,15 @@
 
 
 - (void)viewDidUnload {
-	[chatWebView release];
-	[textFieldBackground release];
-	[textField release];
+	[chatWebView release]; chatWebView = nil;
+	[textFieldBackground release]; textFieldBackground = nil;
+	[textField release]; textField = nil;
 	ChatAppDelegate *appDelegate = (ChatAppDelegate *)[[UIApplication sharedApplication] delegate];
   appDelegate.chatController.delegate = nil;
 }
 
 
--(void) keyboardWillShow:(NSNotification *) note {
+- (void) keyboardWillShow:(NSNotification *) note {
 	// get the frame and center of the keyboard so we can move the textField
   CGRect keyboardFrame;
   [[note.userInfo valueForKey:UIKeyboardBoundsUserInfoKey] getValue: &keyboardFrame];
@@ -91,8 +91,6 @@
 	- TEXTFIELD_BG_HEIGHT;
 	// assign the new frame back to the webView's frame
   chatWebView.frame = newChatWebViewFrame;
-	
-	
 }
 
 

@@ -38,7 +38,7 @@
 @property(nonatomic,assign) id <ChatControllerDelegate> roomTableViewControllerDelegate;
 
 - (void) connect;
-- (BOOL) sendMessage:(NSString*)text;
+- (BOOL) sendMessage:(NSString*)text fromRoom:(NSString*)roomName;
 - (void) saveEmail:(NSString*)email;
 - (void) saveNickname:(NSString*)nickname;
 
