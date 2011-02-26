@@ -12,9 +12,9 @@
 @implementation ChatViewController
 
 - (void)dealloc {
-  [super dealloc];
   NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
-  [nc performSelector:@selector(removeObserver:) withObject:self afterDelay:0];
+  [nc removeObserver:self];
+  [super dealloc];
 }
 
 
