@@ -6,10 +6,10 @@
 #import "ChatController.h"
 #import "CJSONDeserializer.h"
 #import "CJSONSerializer.h"
-
+#import "ChatUser.h"
 
 @implementation ChatController
-@synthesize delegate, roomTableViewControllerDelegate;
+@synthesize delegate, roomTableViewControllerDelegate, user;
 
 
 # pragma mark -
@@ -17,7 +17,18 @@
 
 - (void)dealloc {
   [client release];
+  [user release];
   [super dealloc];
+}
+
+
+# pragma mark -
+# pragma mark init methods
+
+- (id) init {
+  self = [super init];
+  user = [[ChatUser alloc]init];
+  return self;
 }
 
 

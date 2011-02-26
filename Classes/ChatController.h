@@ -6,7 +6,6 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "SocketIoClient.h"
 
 @protocol ChatControllerDelegate <NSObject>
@@ -26,16 +25,18 @@
 @end
 
 
+@class ChatUser;
 @interface ChatController : NSObject <SocketIoClientDelegate> {
 	
 	SocketIoClient *client;
 	id <ChatControllerDelegate> delegate;
   id <ChatControllerDelegate> roomTableViewControllerDelegate;
-	
+	ChatUser *user;
 }
 
 @property(nonatomic,assign) id <ChatControllerDelegate> delegate;
 @property(nonatomic,assign) id <ChatControllerDelegate> roomTableViewControllerDelegate;
+@property(nonatomic,retain) ChatUser *user;
 
 - (void) connect;
 - (BOOL) sendMessage:(NSString*)text fromRoom:(NSString*)roomName;
