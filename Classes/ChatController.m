@@ -98,7 +98,7 @@
 
 - (BOOL) sendMessage:(NSString*)text fromRoom:(NSString*)roomName {
 	NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:
-															text, @"msg", roomName, @"room_name", nil];
+															text, @"message", roomName, @"room", nil];
   //NSDictionary *dictionary = [NSDictionary dictionaryWithObject:text forKey:@"msg"];
   return [self sendJson:dictionary];
 }
@@ -132,14 +132,14 @@
 
 
 - (void)onChatMessage:(NSDictionary *)msgObj {
-  // print a message e.g. "user: msg"
+  // print a message e.g. "user: message"
 	if ([self.delegate respondsToSelector:@selector(write:user:)])
     [self.delegate write:[msgObj objectForKey:@"message"] user:[msgObj objectForKey:@"username"]];	
 }
 
 
 - (void)onAnnouncement:(NSDictionary *)msgObj {
-  // print an announcement e.g. "* msg *"
+  // print an announcement e.g. "* message *"
   NSString *formattedMsg;
   formattedMsg = [NSString stringWithFormat: @"* %@ *", [msgObj objectForKey:@"announcement"]];
 	if ([self.delegate respondsToSelector:@selector(write:user:)])
