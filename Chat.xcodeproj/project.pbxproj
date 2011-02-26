@@ -317,6 +317,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andrew Johnson (7K33LXYFKE)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -324,6 +325,7 @@
 				GCC_PREFIX_HEADER = Chat_Prefix.pch;
 				INFOPLIST_FILE = "Chat-Info.plist";
 				PRODUCT_NAME = Chat;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F25E0F11-66FD-414F-94C0-0A6719894FB6";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
