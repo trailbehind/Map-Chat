@@ -59,11 +59,24 @@
 
 
 #pragma mark -
+#pragma mark ChatController delegate methods
+
+- (void) didReceiveRoomList {
+	[self.navigationController
+	 dismissModalViewControllerAnimated:YES];
+}
+
+
+#pragma mark -
 #pragma mark UITextField delegate methods
 
 // save the room after the user presses done
 - (void)textFieldDidEndEditing:(UITextField *)textField {
 	[self joinRoom:textField.text];
+	
+	// breaks MVC - ghetto adding the room to the list as it's made
+	[listOfRooms insertObject:textField.text atIndex:0];
+  [self.tableView reloadData];
 }
 
 

@@ -26,7 +26,7 @@
 
 - (void)connect {
   // hardcoded for now
-  NSString *host = @"173.203.56.222";
+  NSString *host = @"localhost"; //@"173.203.56.222";
   NSInteger port = 9202;
   
   // setup and connect to the server with websockets
@@ -43,6 +43,7 @@
   [client disconnect];
 }
 
+// Send any pending messages. If we're not connected, this will connect first.
 - (void)maybeSendPendingJson {
 	/*
   if (pending_jsons.length == 0) {
@@ -99,7 +100,6 @@
 - (BOOL) sendMessage:(NSString*)text fromRoom:(NSString*)roomName {
 	NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:
 															text, @"msg", roomName, @"room_name", nil];
-  //NSDictionary *dictionary = [NSDictionary dictionaryWithObject:text forKey:@"msg"];
   return [self sendJson:dictionary];
 }
 
@@ -153,6 +153,7 @@
 
 
 - (void)onMessage:(NSDictionary *) msgObj {
+	NSLog(@"The message is %@", msgObj);
 	BOOL isCallback = ([msgObj objectForKey:@"callback"] != nil);
 	if (isCallback) {
 		if ([[msgObj objectForKey:@"name"]isEqualToString:@"nick"]) {
@@ -171,12 +172,14 @@
   BOOL isRoomList = ([msgObj objectForKey:@"rooms"] != nil);
 	
 	if (isAnnouncement) {
+		NSLog(@"the first thing that you get back is %@", msgObj);
     [self onAnnouncement:msgObj];
   } else if (isChatMessage) {
     [self onChatMessage:msgObj];
   } else if (isRoomList) {
+		NSLog(@"the second thing that you get back is %@", msgObj);
     [self onRoomList:msgObj];
-    // probably metadata
+		[self.roomTableViewControllerDelegate didReceiveRoomList];		
   }
 }
 

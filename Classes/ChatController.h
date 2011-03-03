@@ -23,6 +23,10 @@
 @optional
 - (void) didSaveEmail:(BOOL)didSucceed;
 
+@optional
+- (void) didReceiveRoomList;
+
+
 @end
 
 

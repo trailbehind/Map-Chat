@@ -41,6 +41,9 @@
 	// start showing stuff on the screen
 	[window makeKeyAndVisible];
 	
+	UIViewController *vc = [[[UIViewController alloc]init]autorelease];
+	[roomNavController presentModalViewController:vc animated:NO];
+	
 	return YES;
 }
 
