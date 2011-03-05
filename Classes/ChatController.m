@@ -37,7 +37,7 @@
 
 - (void)connect {
   // hardcoded for now
-  NSString *host = @"localhost"; //@"173.203.56.222";
+  NSString *host = @"173.203.56.222";
   NSInteger port = 9202;
   
   // setup and connect to the server with websockets
@@ -77,6 +77,19 @@
 # pragma mark -
 # pragma mark methods to send messages
 
+NSString *letters = @"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+-(NSString *) generateRandomString: (int) len {
+	
+	NSMutableString *randomString = [NSMutableString stringWithCapacity: len];
+	
+	for (int i=0; i<len; i++) {
+		[randomString appendFormat: @"%c", [letters characterAtIndex: arc4random()%[letters length]]];
+	}
+  
+	return randomString;
+}
+
+
 // send a message as JSON to the chat server
 - (BOOL) sendJson:(NSDictionary*)dictionary {
   if ([client isConnected]) {
@@ -97,41 +110,48 @@
 
 	 
 - (void) saveEmail:(NSString*)email {
-  NSDictionary *dictionary = [NSDictionary dictionaryWithObject:email forKey:@"email"];
+  NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:
+															[[UIDevice currentDevice] uniqueIdentifier], @"uid", 
+															@"email", @"command",
+                              email, @"email",
+															[self generateRandomString:128], @"id", nil];
+  
   [self sendJson:dictionary];
 }
 
 
 - (void) saveNickname:(NSString*)nickname {
-  NSDictionary *dictionary = [NSDictionary dictionaryWithObject:nickname forKey:@"nick"];
+  NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:
+															[[UIDevice currentDevice] uniqueIdentifier], @"uid", 
+															@"nick", @"command",
+                              nickname, @"nick",
+															[self generateRandomString:128], @"id", nil];
+  
   [self sendJson:dictionary];
 }
 
 
 - (BOOL) sendMessage:(NSString*)text fromRoom:(NSString*)roomName {
-	NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:
-															text, @"message", roomName, @"room", nil];
+  NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:
+															[[UIDevice currentDevice] uniqueIdentifier], @"uid", 
+															@"message", @"command",
+                              roomName, @"room",
+                              text, @"message",
+															[self generateRandomString:128], @"id", nil];
+  
   //NSDictionary *dictionary = [NSDictionary dictionaryWithObject:text forKey:@"msg"];
   return [self sendJson:dictionary];
 }
 
 
 - (BOOL) joinRoom:(NSString*)text {
-  NSDictionary *dictionary = [NSDictionary dictionaryWithObject:text forKey:@"join"];
+  NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:
+															[[UIDevice currentDevice] uniqueIdentifier], @"uid", 
+															@"join", @"command",
+                              text, @"room",
+															[self generateRandomString:128], @"id", nil];
+  
   return [self sendJson:dictionary];
-}
-
-
-NSString *letters = @"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
--(NSString *) generateRandomString: (int) len {
-	
-	NSMutableString *randomString = [NSMutableString stringWithCapacity: len];
-	
-	for (int i=0; i<len; i++) {
-		[randomString appendFormat: @"%c", [letters characterAtIndex: rand()%[letters length]]];
-	}
-		 
-	return randomString;
 }
 
 
