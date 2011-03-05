@@ -196,6 +196,10 @@
   NSError *error = nil;
   NSDictionary *jsonDict = [[CJSONDeserializer deserializer] deserializeAsDictionary:[msg dataUsingEncoding:NSUTF32BigEndianStringEncoding] error:&error];
 	
+  if (error) {
+    NSLog(@"error in json deserialization: %@", error);
+  }
+  
   // process resulting data
   if ([jsonDict objectForKey:@"userlist"] == nil) {
     BOOL multipleMessages = ([jsonDict objectForKey:@"messages"] != nil);
