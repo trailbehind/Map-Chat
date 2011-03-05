@@ -6,10 +6,10 @@
 #import "ChatController.h"
 #import "CJSONDeserializer.h"
 #import "CJSONSerializer.h"
-
+#import "ChatUser.h"
 
 @implementation ChatController
-@synthesize delegate, roomTableViewControllerDelegate;
+@synthesize delegate, roomTableViewControllerDelegate, user;
 
 
 # pragma mark -
@@ -17,7 +17,18 @@
 
 - (void)dealloc {
   [client release];
+  [user release];
   [super dealloc];
+}
+
+
+# pragma mark -
+# pragma mark init methods
+
+- (id) init {
+  self = [super init];
+  user = [[ChatUser alloc]init];
+  return self;
 }
 
 
@@ -99,20 +110,36 @@
 
 - (BOOL) sendMessage:(NSString*)text fromRoom:(NSString*)roomName {
 	NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:
-															text, @"msg", roomName, @"room_name", nil];
+															text, @"message", roomName, @"room", nil];
+  //NSDictionary *dictionary = [NSDictionary dictionaryWithObject:text forKey:@"msg"];
   return [self sendJson:dictionary];
 }
 
 
 - (BOOL) joinRoom:(NSString*)text {
-  NSDictionary *dictionary = [NSDictionary dictionaryWithObject:text forKey:@"joinRoom"];
+  NSDictionary *dictionary = [NSDictionary dictionaryWithObject:text forKey:@"join"];
   return [self sendJson:dictionary];
 }
 
 
+NSString *letters = @"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+-(NSString *) generateRandomString: (int) len {
+	
+	NSMutableString *randomString = [NSMutableString stringWithCapacity: len];
+	
+	for (int i=0; i<len; i++) {
+		[randomString appendFormat: @"%c", [letters characterAtIndex: rand()%[letters length]]];
+	}
+		 
+	return randomString;
+}
+
+
 - (void) sendUDID {
-  NSDictionary *dictionary = [NSDictionary dictionaryWithObject:
-															[[UIDevice currentDevice] uniqueIdentifier] forKey:@"login"];
+  NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:
+															[[UIDevice currentDevice] uniqueIdentifier], @"uid", 
+															@"login", @"command",
+															[self generateRandomString:128], @"id", nil];
 	[self sendJson:dictionary];
 }
 
@@ -132,14 +159,14 @@
 
 
 - (void)onChatMessage:(NSDictionary *)msgObj {
-  // print a message e.g. "user: msg"
+  // print a message e.g. "user: message"
 	if ([self.delegate respondsToSelector:@selector(write:user:)])
     [self.delegate write:[msgObj objectForKey:@"message"] user:[msgObj objectForKey:@"username"]];	
 }
 
 
 - (void)onAnnouncement:(NSDictionary *)msgObj {
-  // print an announcement e.g. "* msg *"
+  // print an announcement e.g. "* message *"
   NSString *formattedMsg;
   formattedMsg = [NSString stringWithFormat: @"* %@ *", [msgObj objectForKey:@"announcement"]];
 	if ([self.delegate respondsToSelector:@selector(write:user:)])

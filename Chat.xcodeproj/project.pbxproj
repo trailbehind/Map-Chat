@@ -28,6 +28,7 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ChatViewController.m */; };
+		8421014B1318943800811463 /* ChatUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421014A1318943800811463 /* ChatUser.m */; };
 		A0078F2112E4DCB9004D0B1E /* RoomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0078F2012E4DCB9004D0B1E /* RoomTableViewController.m */; };
 		A0078F3C12E4F4E6004D0B1E /* ChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0078F3B12E4F4E6004D0B1E /* ChatController.m */; };
 		A0DC22B01303A8D600E8E1D9 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DC22AF1303A8D600E8E1D9 /* ProfileViewController.m */; };
@@ -75,6 +76,8 @@
 		28D7ACF70DDB3853001CB0EB /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Chat_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chat_Prefix.pch; sourceTree = "<group>"; };
+		842101491318943800811463 /* ChatUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatUser.h; sourceTree = "<group>"; };
+		8421014A1318943800811463 /* ChatUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatUser.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Chat-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Chat-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		A0078F1F12E4DCB9004D0B1E /* RoomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomTableViewController.h; sourceTree = "<group>"; };
 		A0078F2012E4DCB9004D0B1E /* RoomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomTableViewController.m; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				A0078F3B12E4F4E6004D0B1E /* ChatController.m */,
 				A0DC22AE1303A8D600E8E1D9 /* ProfileViewController.h */,
 				A0DC22AF1303A8D600E8E1D9 /* ProfileViewController.m */,
+				842101491318943800811463 /* ChatUser.h */,
+				8421014A1318943800811463 /* ChatUser.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -125,7 +130,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		23232BD712D2CA94003FD72C /* Source */ = {
+		23232BD712D2CA94003FD72C /* lib */ = {
 			isa = PBXGroup;
 			children = (
 				2308201D12D4447700920F5A /* WebSocket.h */,
@@ -140,6 +145,7 @@
 				23232BE112D2CA94003FD72C /* Extensions */,
 				23232BEA12D2CA94003FD72C /* JSON */,
 			);
+			name = lib;
 			path = Source;
 			sourceTree = "<group>";
 		};
@@ -188,7 +194,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				23232BD712D2CA94003FD72C /* Source */,
+				23232BD712D2CA94003FD72C /* lib */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources-iPhone */,
@@ -307,6 +313,7 @@
 				A0078F2112E4DCB9004D0B1E /* RoomTableViewController.m in Sources */,
 				A0078F3C12E4F4E6004D0B1E /* ChatController.m in Sources */,
 				A0DC22B01303A8D600E8E1D9 /* ProfileViewController.m in Sources */,
+				8421014B1318943800811463 /* ChatUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andrew Johnson (7K33LXYFKE)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -324,6 +332,7 @@
 				GCC_PREFIX_HEADER = Chat_Prefix.pch;
 				INFOPLIST_FILE = "Chat-Info.plist";
 				PRODUCT_NAME = Chat;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F25E0F11-66FD-414F-94C0-0A6719894FB6";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;

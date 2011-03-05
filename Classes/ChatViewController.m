@@ -12,6 +12,8 @@
 @implementation ChatViewController
 
 - (void)dealloc {
+  NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
+  [nc removeObserver:self];
   [super dealloc];
 }
 
@@ -20,6 +22,12 @@
   self = [super init];
 	return self;	
 }
+
+- (void) scrollWebViewToEnd {
+  int height = [[chatWebView stringByEvaluatingJavaScriptFromString:@"document.body.offsetHeight;"] intValue];
+	NSString *javascript = [NSString stringWithFormat:@"window.scrollTo(0, %d);", height]; 
+	[chatWebView stringByEvaluatingJavaScriptFromString:javascript];	
+}  
 
 
 // write raw text to the textView
@@ -34,9 +42,7 @@
   }
   NSString *javascript = [NSString stringWithFormat:@"var div=document.createElement('div');div.innerHTML=\"%@\";document.body.appendChild(div);", htmlString]; 
   [chatWebView stringByEvaluatingJavaScriptFromString:javascript];	
-	int height = [[chatWebView stringByEvaluatingJavaScriptFromString:@"document.body.offsetHeight;"] intValue];
-	javascript = [NSString stringWithFormat:@"window.scrollTo(0, %d);", height]; 
-	[chatWebView stringByEvaluatingJavaScriptFromString:javascript];	
+  [self scrollWebViewToEnd];
 }
 
 
@@ -61,7 +67,36 @@
 }
 
 
+- (void) setupAnimation:(NSNotification*)note {
+  [UIView beginAnimations:nil context:nil];
+  [UIView setAnimationCurve:[[[note userInfo] objectForKey:UIKeyboardAnimationCurveUserInfoKey] intValue]];
+  [UIView setAnimationDuration:[[[note userInfo] objectForKey:UIKeyboardAnimationDurationUserInfoKey] doubleValue]];
+}  
+
+
+- (void) keyboardWillHide:(NSNotification *) note {
+
+  [self setupAnimation:note];
+
+  // move the textField to the bottom of the screen
+  CGRect newTextFieldBGFrame  = textFieldBackground.frame;
+  newTextFieldBGFrame.origin.y = self.view.frame.size.height - textFieldBackground.frame.size.height; 
+  textFieldBackground.frame = newTextFieldBGFrame;
+	
+	// make the webView fill the screen
+	CGRect newChatWebViewFrame = chatWebView.frame;
+	newChatWebViewFrame.size.height =  
+    self.view.frame.size.height 
+	  - TEXTFIELD_BG_HEIGHT;
+  chatWebView.frame = newChatWebViewFrame;  
+  [UIView commitAnimations];
+}
+
+
 - (void) keyboardWillShow:(NSNotification *) note {
+  
+  [self setupAnimation:note];
+
 	// get the frame and center of the keyboard so we can move the textField
   CGRect keyboardFrame;
   [[note.userInfo valueForKey:UIKeyboardBoundsUserInfoKey] getValue: &keyboardFrame];
@@ -91,6 +126,9 @@
 	- TEXTFIELD_BG_HEIGHT;
 	// assign the new frame back to the webView's frame
   chatWebView.frame = newChatWebViewFrame;
+  [UIView commitAnimations];
+  [self scrollWebViewToEnd];
+
 }
 
 
@@ -101,6 +139,8 @@
 	// create the webView that shows the chat
 	chatWebView = [[UIWebView alloc]initWithFrame:self.view.bounds];
   [chatWebView loadHTMLString:@"<html><body>Welcome!<BR></body></html>" baseURL:nil];
+  chatWebView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleTopMargin
+  | UIViewAutoresizingFlexibleBottomMargin;
 	chatWebView.delegate = self;
 	[self.view addSubview:chatWebView];
   
@@ -114,6 +154,7 @@
 																			 TEXTFIELD_BG_HEIGHT);
 	textFieldBackground = [[UIView alloc]initWithFrame:textFieldBGFrame];
 	textFieldBackground.backgroundColor = [UIColor grayColor];
+  textFieldBackground.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin;
 	[self.view addSubview:textFieldBackground];
 	
 	// create the textField to enter chats and add it to the gray background
@@ -124,6 +165,7 @@
 																													 textFieldBGFrame.size.height-padding*2)];
 	textField.borderStyle = UITextBorderStyleRoundedRect;
 	textField.delegate = self;
+  textField.autoresizingMask = UIViewAutoresizingFlexibleWidth;
 	[textFieldBackground addSubview:textField];
 	
 	// add a notification for when the keyboard shows, which moves up the text field
@@ -132,12 +174,24 @@
          selector:@selector(keyboardWillShow:) 
              name:UIKeyboardWillShowNotification 
            object:nil];
+	// add a notification for when the keyboard hides, which moves down the text field
+  [nc addObserver:self 
+         selector:@selector(keyboardWillHide:) 
+             name:UIKeyboardWillHideNotification 
+           object:nil];  
 	// show the keyboard 
 	[textField becomeFirstResponder];
   // remove the notification observer since the keyboard never shows or hides again
-	[nc performSelector:@selector(removeObserver:) withObject:self afterDelay:1];
 }
 
+
+- (void) didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
+  [self scrollWebViewToEnd];
+}
+
+- (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+  return YES;
+}
 
 
 @end
