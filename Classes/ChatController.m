@@ -37,7 +37,7 @@
 
 - (void)connect {
   // hardcoded for now
-  NSString *host = @"173.203.56.222";
+  NSString *host = @"localhost"; //@"173.203.56.222";
   NSInteger port = 9202;
   
   // setup and connect to the server with websockets
@@ -54,6 +54,7 @@
   [client disconnect];
 }
 
+// Send any pending messages. If we're not connected, this will connect first.
 - (void)maybeSendPendingJson {
 	/*
   if (pending_jsons.length == 0) {
@@ -116,14 +117,29 @@
 
 
 - (BOOL) joinRoom:(NSString*)text {
-  NSDictionary *dictionary = [NSDictionary dictionaryWithObject:text forKey:@"joinRoom"];
+  NSDictionary *dictionary = [NSDictionary dictionaryWithObject:text forKey:@"join"];
   return [self sendJson:dictionary];
 }
 
 
+NSString *letters = @"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+-(NSString *) generateRandomString: (int) len {
+	
+	NSMutableString *randomString = [NSMutableString stringWithCapacity: len];
+	
+	for (int i=0; i<len; i++) {
+		[randomString appendFormat: @"%c", [letters characterAtIndex: rand()%[letters length]]];
+	}
+		 
+	return randomString;
+}
+
+
 - (void) sendUDID {
-  NSDictionary *dictionary = [NSDictionary dictionaryWithObject:
-															[[UIDevice currentDevice] uniqueIdentifier] forKey:@"login"];
+  NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:
+															[[UIDevice currentDevice] uniqueIdentifier], @"uid", 
+															@"login", @"command",
+															[self generateRandomString:128], @"id", nil];
 	[self sendJson:dictionary];
 }
 
@@ -164,6 +180,7 @@
 
 
 - (void)onMessage:(NSDictionary *) msgObj {
+	NSLog(@"The message is %@", msgObj);
 	BOOL isCallback = ([msgObj objectForKey:@"callback"] != nil);
 	if (isCallback) {
 		if ([[msgObj objectForKey:@"name"]isEqualToString:@"nick"]) {
@@ -182,12 +199,14 @@
   BOOL isRoomList = ([msgObj objectForKey:@"rooms"] != nil);
 	
 	if (isAnnouncement) {
+		NSLog(@"the first thing that you get back is %@", msgObj);
     [self onAnnouncement:msgObj];
   } else if (isChatMessage) {
     [self onChatMessage:msgObj];
   } else if (isRoomList) {
+		NSLog(@"the second thing that you get back is %@", msgObj);
     [self onRoomList:msgObj];
-    // probably metadata
+		[self.roomTableViewControllerDelegate didReceiveRoomList];		
   }
 }
 

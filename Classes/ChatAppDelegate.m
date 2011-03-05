@@ -79,6 +79,9 @@
   NSLog(@"Application finished launching");
 
   
+	UIViewController *vc = [[[UIViewController alloc]init]autorelease];
+	[roomNavController presentModalViewController:vc animated:NO];
+	
 	return YES;
 }
 
