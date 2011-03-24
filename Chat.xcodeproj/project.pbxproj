@@ -31,6 +31,8 @@
 		8421014B1318943800811463 /* ChatUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421014A1318943800811463 /* ChatUser.m */; };
 		A0078F2112E4DCB9004D0B1E /* RoomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0078F2012E4DCB9004D0B1E /* RoomTableViewController.m */; };
 		A0078F3C12E4F4E6004D0B1E /* ChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0078F3B12E4F4E6004D0B1E /* ChatController.m */; };
+		A0CED0B5133AFE840034971F /* CameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CED0A6133AFC140034971F /* CameraController.m */; };
+		A0CED0BE133AFEC30034971F /* ImageManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CED0BD133AFEC30034971F /* ImageManipulator.m */; };
 		A0DC22B01303A8D600E8E1D9 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DC22AF1303A8D600E8E1D9 /* ProfileViewController.m */; };
 		C76180C5112AA8F6008E0A1C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76180C4112AA8F6008E0A1C /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
@@ -83,6 +85,10 @@
 		A0078F2012E4DCB9004D0B1E /* RoomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomTableViewController.m; sourceTree = "<group>"; };
 		A0078F3A12E4F4E6004D0B1E /* ChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatController.h; sourceTree = "<group>"; };
 		A0078F3B12E4F4E6004D0B1E /* ChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatController.m; sourceTree = "<group>"; };
+		A0CED0A6133AFC140034971F /* CameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraController.m; sourceTree = "<group>"; };
+		A0CED0A7133AFC140034971F /* CameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraController.h; sourceTree = "<group>"; };
+		A0CED0BC133AFEC30034971F /* ImageManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManipulator.h; sourceTree = "<group>"; };
+		A0CED0BD133AFEC30034971F /* ImageManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManipulator.m; sourceTree = "<group>"; };
 		A0DC22AE1303A8D600E8E1D9 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		A0DC22AF1303A8D600E8E1D9 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		C76180C4112AA8F6008E0A1C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -106,6 +112,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A0CED0BC133AFEC30034971F /* ImageManipulator.h */,
+				A0CED0BD133AFEC30034971F /* ImageManipulator.m */,
+				A0CED0A6133AFC140034971F /* CameraController.m */,
+				A0CED0A7133AFC140034971F /* CameraController.h */,
 				1D3623240D0F684500981E51 /* ChatAppDelegate.h */,
 				1D3623250D0F684500981E51 /* ChatAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* ChatViewController.h */,
@@ -314,6 +324,8 @@
 				A0078F3C12E4F4E6004D0B1E /* ChatController.m in Sources */,
 				A0DC22B01303A8D600E8E1D9 /* ProfileViewController.m in Sources */,
 				8421014B1318943800811463 /* ChatUser.m in Sources */,
+				A0CED0B5133AFE840034971F /* CameraController.m in Sources */,
+				A0CED0BE133AFEC30034971F /* ImageManipulator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -232,6 +232,7 @@ NSString *letters = @"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ012345
 
 
 - (void)socketIoClient:(SocketIoClient *)client didReceiveMessage:(NSString *)msg isJSON:(BOOL)isJSON {
+	NSLog(@"did receive message");
   NSError *error = nil;
   NSDictionary *jsonDict = [[CJSONDeserializer deserializer] deserializeAsDictionary:[msg dataUsingEncoding:NSUTF32BigEndianStringEncoding] error:&error];
 	
@@ -244,8 +245,10 @@ NSString *letters = @"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ012345
     BOOL multipleMessages = ([jsonDict objectForKey:@"messages"] != nil);
     if (multipleMessages) {
       for (NSString* key in jsonDict) {
+				NSLog(@"the key is %@", key);
         id value = [jsonDict objectForKey:key];
         for (id someMsg in value) {
+					NSLog(@"the msga is %@", someMsg);
           [self onMessage:someMsg];
         }
       }

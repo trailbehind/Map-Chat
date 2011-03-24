@@ -8,7 +8,7 @@
 
 #import "ProfileViewController.h"
 #import "ChatAppDelegate.h"
-
+#import "CameraController.h"
 
 #define PADDING 10
 #define LABEL_ROW_HEIGHT 20
@@ -42,6 +42,13 @@
 	return field;
 }
 
+
+- (void) showCamera {
+	CameraController *cc = [[[CameraController alloc]initWithMode:@"camera"]autorelease];
+	[self presentModalViewController:cc animated:YES];
+}
+
+
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
   [super loadView];	
@@ -56,6 +63,13 @@
 	
 	ChatAppDelegate *appDelegate = (ChatAppDelegate *)[[UIApplication sharedApplication] delegate];
 	appDelegate.chatController.delegate = self;
+	
+	UIBarButtonItem *cameraButton = [[[UIBarButtonItem alloc]initWithTitle:@"Camera" 
+																																	 style:UIBarButtonItemStyleBordered 
+																																	target:self 
+																																	action:@selector(showCamera)]autorelease];
+	self.navigationItem.leftBarButtonItem = cameraButton;
+	
 }
 
 
